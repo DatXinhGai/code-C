@@ -1,0 +1,39 @@
+rtrim, ltrim, tokenize,
+đổi hệ cơ số 2, 8 , 16
+đổi 2 sang 10
+euclide trừ, chia
+tìm xuất hiện mảng con không dùng hàm
+memset
+dos
+ungetc
+in ngược (mảng phụ, chặt)
+chuẩn hóa xâu (mảng phụ, memmove)
+đổi tiền
+xếp bia
+xombie, súng, đào vàng
+search, sort
+đệ quy doi cơ sở 
+đánh giá tmdt (nhập dữ liệu( đánh giá và kết quả đánh giá), thống kê(tính trung bình), nhập đánh giá) (0 là ko được đánh giá)(in ra nhãn it
+được quan tâm, sắp xếp theo danh gia
+
+VD5. Phân tích
+bảng chỉ số VNIndex
+trong 120 ngày gần đây
+• Nhập vào giá trị chỉ số vnindex trong 120 ngày gần đây
+• Đưa ra giá trị cao nhất và thấp nhất
+• Đưa ra chuỗi ngày tăng dài nhất (giảm dài nhất)
+• Giá trị MA20 được tính bằng giá trị trung bình của 20 ngày gần nhất với ngày hiện tại. Hãy
+tính và đưa ra giá trị MA20 của dữ liệu đã nhập 
+• Tìm và in ra giá trị tăng/giảm đột biến của 2 ngày liên tiếp
+• Đưa ra tỉ lệ biến đổi của chuỗi tăng/giảm lớn nhất (tỉ lệ giữa thời điểm đầu và cuối của chuỗi)
+
+
+gỡ lỗi o chap 7 + bài tập;
+khai báo hàm trong hàm khác
+Linked list (con trỏ và cấu trúc)
+Hash table
+demo mảng cấu trúc, cấp phát động
+lũy thừa nhanh
+prompt engineering
+pascal
+in 4 bao quanh 3, 2, 1

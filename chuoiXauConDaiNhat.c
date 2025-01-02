@@ -8,7 +8,7 @@
  * lưu 1 biến max luôn đỡ phải chạy lại, xử lý thđb của i = 0 và j = 0
 */
 
-int main(void) {
+void chuoiXauConDaiNhat(void) {
     int max = 0;
 
     char *a = (char*)malloc(1000*sizeof(char));
@@ -63,7 +63,7 @@ int main(void) {
             }
         }
     }
-    printf("%d\n", max);
+    printf("Chuỗi con chung dài nhất là: %d\n", max);
 
 
     for (int i = 0; i < daia; i++) {
@@ -84,5 +84,4 @@ int main(void) {
         free(b);
         b = NULL;
     }
-    return 0;
 }
