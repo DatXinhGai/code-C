@@ -7,10 +7,15 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-extern void Bitwise();
-extern void
+extern int myMalloc();
+extern int orderManagers();
+extern int universalTree();
+extern int prefixTree();
 
-int main(void) {
-    Bitwise();
+int main(void)
+{
+    //myMalloc();
+    orderManagers();
 
 }
+

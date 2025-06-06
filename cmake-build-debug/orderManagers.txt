@@ -1,0 +1,150 @@
+------------------------------------------
+Thu Jun 05 22:14:38 2025
+	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
+	Số đĩa đặt: 2
+	Số món đặt: 1
+------------------------------------------
+Thu Jun 05 22:14:38 2025
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:14:38 2025
+	Món: Com Tam                  Số lượng: 1     
+	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
+	Số đĩa đặt: 2
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:14:38 2025
+------------------------------------------
+Thu Jun 05 22:14:38 2025
+	Món: Bun ngan                 Số lượng: 2     
+	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:14:38 2025
+------------------------------------------
+Thu Jun 05 22:17:19 2025
+	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
+	Số đĩa đặt: 2
+	Số món đặt: 1
+------------------------------------------
+Thu Jun 05 22:17:19 2025
+	Món: Com Tam                  Số lượng: 1     
+	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
+	Số đĩa đặt: 2
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:19 2025
+	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:19 2025
+	Món: Bun ngan                 Số lượng: 2     
+	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:19 2025
+Đơn đã bị hủy hoặc đã hoàn thành!------------------------------------------
+Thu Jun 05 22:17:34 2025
+	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
+	Số đĩa đặt: 2
+	Số món đặt: 1
+------------------------------------------
+Thu Jun 05 22:17:34 2025
+	Món: Com Tam                  Số lượng: 1     
+	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
+	Số đĩa đặt: 2
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:34 2025
+	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:34 2025
+	Món: Bun ngan                 Số lượng: 2     
+	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:34 2025
+Đơn đã bị hủy hoặc đã hoàn thành!
+------------------------------------------
+Thu Jun 05 22:17:55 2025
+	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
+	Số đĩa đặt: 2
+	Số món đặt: 1
+------------------------------------------
+Thu Jun 05 22:17:55 2025
+	Món: Com Tam                  Số lượng: 1     
+	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
+	Số đĩa đặt: 2
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:55 2025
+	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:55 2025
+	Món: Bun ngan                 Số lượng: 2     
+	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:17:55 2025
+Đơn đã bị hủy hoặc đã hoàn thành!
+------------------------------------------
+Thu Jun 05 22:18:01 2025
+	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
+	Số đĩa đặt: 2
+	Số món đặt: 1
+------------------------------------------
+Thu Jun 05 22:18:01 2025
+	Món: Com Tam                  Số lượng: 1     
+	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
+	Số đĩa đặt: 2
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:18:01 2025
+	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:18:01 2025
+	Món: Bun ngan                 Số lượng: 2     
+	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Thu Jun 05 22:18:01 2025
+Đơn đã bị hủy hoặc đã hoàn thành!
+------------------------------------------
+Fri Jun 06 11:03:58 2025
+	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
+	Số đĩa đặt: 2
+	Số món đặt: 1
+------------------------------------------
+Fri Jun 06 11:03:58 2025
+	Món: Com Tam                  Số lượng: 1     
+	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
+	Số đĩa đặt: 2
+	Số món đặt: 2
+------------------------------------------
+Fri Jun 06 11:03:58 2025
+	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
+	Món: Bun Dau Mam Tom          Số lượng: 1          Ghi chú: cham nuoc mam
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Fri Jun 06 11:03:58 2025
+	Món: Bun ngan                 Số lượng: 2     
+	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
+	Số đĩa đặt: 3
+	Số món đặt: 2
+------------------------------------------
+Fri Jun 06 11:03:58 2025
+Đơn đã bị hủy hoặc đã hoàn thành!

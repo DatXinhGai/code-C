@@ -32,15 +32,105 @@ add_executable(C
         LocPhanTu.h
         nhapPhanTu.c
         nhapPhanTu.h
-        cmake-build-release/canBacK.c
+        canBacK.c
         ptBac3.c
         sortString.c
         hePhuongTrinh.c
         lamTron.c
-        lamTron.h
-        linkedList.c
         addEntry.c
         Enum.c
         EnumVD.c
+        DoiTien.c
+        StaticAndRegister.c
+        StructAndUnion.c
+        thaoTacXau.c
+        getenvVD.c
+        thaoTacXau.h
+        PreprocessorDirectives.c
+        thaoTacXau.h
+        test.c
+        assert.c
+        ungetC.c
 
+        Euler+LuyThuaNhanh.c
+        ktr.c
+        doiCoSo.c
+        readLogStudent.c
+        hs.c
+        timViTriChuoiCon.c
+        inTuNguoc.c
+        muaHang.c
+        inNguoc.c
+        chuEchCon.c
+        xoaXuatHien.c
+        BanSp.c
+        hs2.c
+        teststrcmp.c
+        banVang.c
+        test1.c
+        SDaoMax.c
+        SDaoMaxToiUu.c
+        tronThoat.c
+        xinPhong.c
+        Pokemon.c
+        QuyHoạchĐộng.cpp
+        QuyHoạchĐộng.h
+        PokemonSao.c
+        muonXe.c
+        createTest.c
+        giaiMaSdt.c
+        chuyenBay.c
+        variadicFunction.c
+        queringDocument2.c
+        permute.c
+        postTransition.c
+        permuteToiUu.c
+        almostSorted.c
+        BomberManGame.c
+        matrixLayerRotation.c
+        matrixLayerRotation1.c
+        EmaSuperComputer.c
+        inTuHoa.c
+        superReducedString.c
+        chuoiConTongMax.c
+        kmpAlgo.c
+        digitMapping.c
+        ShellSort.c
+        specialCandidate.c
+        MergeSort.c
+        QuickSort.c
+        thapHaNoi.c
+        arrayManipulation.c
+        FastExponential.c
+        DeQuyGianTiep.c
+        DeQuyCoNho.c
+        dienL.c
+        xepHau.c
+        giaiMeCung.c
+        taoXauNhiPhan.c
+        timChu.c
+        CommonSequence.c
+        operation.c
+        MazeCount.c
+        Sudoku.c
+        QHDsubString.c
+        hoanViXau.c
+        xepTuong.c
+        longMaze.c
+        giaiPhepTinh.c
+        stack.c
+        largestRectangle.c
+        sangEratosthenes.c
+        c++.cpp
+        montyHall.c
+        dien.c
+        SinglyLinkedList.c
+        myMalloc.c
+        postTransitionToiUu.c
+        brk.c
+        pokemonToiUu.c
+        textEditor.c
+        waiter.c
+        orderManagers.c
+        universalTree.c
 )

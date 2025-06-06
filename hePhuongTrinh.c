@@ -10,9 +10,17 @@
 #include <string.h>
 
 
-bool delta(double x) {
-    return (fabs(x - (int)x) < 0.001)? true : false;
+// nếu mà muốn an toàn thì nên dùng sai số chứ không nên == 0;
 
+bool delta(double x) {
+    return (fabs(x - (int)x) < 0.00001)? true : false;
+}
+
+double lamTron0(double x) {
+    if (fabs(x) < 0.00001) {
+        return 0;
+    }
+    return x;
 }
 
 void inRaNghiem(int n, double* nghiem, bool vn, bool vsn) {
@@ -35,7 +43,8 @@ void inRaNghiem(int n, double* nghiem, bool vn, bool vsn) {
 
 // lúc nào cũng nhanh hơn
 // tốt nhất là chạy ngược về để khỏi pivot với factor, nhớ vào
-void Gauss_Jordan(int n, double** he, double* nghiem)
+// AX = B => X = IX = A-1B
+void Gaussian_Jordan(int n, double** he, double* nghiem)
 {
     for (int i = 0; i < n; i++) {
         bool dung = false;
@@ -72,10 +81,58 @@ void Gauss_Jordan(int n, double** he, double* nghiem)
         if (he[i][i] == 0 && he[i][n] != 0) {
             vn = true;
             break;
-        } else if (he[i][i] == 0 && he[i][n] == 0) {
+        }
+        if (he[i][i] == 0 && he[i][n] == 0) {
             vsn = true;
         } else {
             nghiem[i] = he[i][n];
+        }
+    }
+    inRaNghiem(n, nghiem, vn, vsn);
+}
+
+
+// Tạo ma trận tam giác trên
+// Phải tính toán ít hơn Gausian_Jordan 1 chút
+void Gaussian_Elimination(int n, double** he, double* nghiem) {
+    // tao ma trận tam giác
+    for (int i = 0; i < n; i++) {
+        bool dung = false;
+        for (int j = i; j < n; j++) {
+            if (he[j][i] != 0) {
+                dung = true;
+                if (i != j) {
+                    double *temp = he[i];
+                    he[i] = he[j];
+                    he[j] = temp;
+                }
+                break;
+            }
+        }
+
+        if (dung) {
+            for (int k = i + 1; k < n; k++) {
+                for (int j = n; j >= i; j--) {
+                    he[k][j] -= he[k][i] / he[i][i] *  he[i][j];
+                }
+            }
+        }
+    }
+
+    bool vn = false;
+    bool vsn = false;
+    for (int i = n - 1; i >= 0; i--) {
+        double bu = he[i][n];
+        for (int j = i + 1; j < n; j++) {
+            bu -= he[i][j]*nghiem[j];
+        }
+        if (lamTron0(he[i][i]) == 0 && lamTron0(bu) != 0) {
+            vn = true;
+            break;
+        } else if (lamTron(he[i][i]) == 0 && lamTron0(bu) == 0) {
+            vsn = true;
+        } else {
+            nghiem[i] = bu / he[i][i];
         }
     }
     inRaNghiem(n, nghiem, vn, vsn);
@@ -103,6 +160,7 @@ double tinhDet(int cot, int n, double** he) {
             dem++;
         }
     }
+
     for (int i = 0; i < n; i++) {
         bool dung = false;
         for (int j = i; j < n; j++) {
@@ -128,6 +186,7 @@ double tinhDet(int cot, int n, double** he) {
         }
     }
 
+
     for (int i = 0; i < n; i++) {
         free(hang[i]);
         hang[i] = NULL;
@@ -135,6 +194,7 @@ double tinhDet(int cot, int n, double** he) {
 
     free(hang);
     hang = NULL;
+
 
     det = pow(-1, n - cot + 1) * det;
     if (cot == n) {
@@ -145,12 +205,13 @@ double tinhDet(int cot, int n, double** he) {
 
 
 
-double tinhDet2(int cot, int n, double** he) {
+double tinhDet2(int cot, int n, const double** he) {
     double det = 1;
     double **hang = (double**)malloc(n*sizeof(double*));
     for (int i = 0; i < n; i++) {
         *(hang + i) = (double*)malloc(n*sizeof(double));
-        memcpy(hang[i], he[i], n*sizeof(double));       // hoặc phải là memcpy(*(hang + i), *(he + i), n*sizeof(double));
+        memcpy(hang[i], he[i], n*sizeof(double));
+        // hoặc phải là memcpy(*(hang + i), *(he + i), n*sizeof(double));
         if (cot != n) {
             hang[i][cot] = he[i][n];
         }
@@ -178,22 +239,17 @@ double tinhDet2(int cot, int n, double** he) {
             }
         } else {
             det = 0;
-            for (int k = 0; k < n; k++) {
-                free(hang[k]);
-                hang[k] = NULL;
-            }
-            free(hang);
-            hang = NULL;
-
-            return det;
+            break;
         }
     }
+
     for (int i = 0; i < n; i++) {
         free(hang[i]);
         hang[i] = NULL;
     }
     free(hang);
     hang = NULL;
+
 
     return det;
 }
@@ -212,9 +268,9 @@ void Cramer(int n, double** he, double* nghiem) {
     }
 
 
-    if (Det[n] == 0) {
+    if (fabs(Det[n] - 0) <= 0.0001 ) {
         for (int i = 0; i < n; i++) {
-            if (Det[i] != 0) {
+            if (fabs(Det[i] - 0) >= 0.0001) {
                 vn = true;
                 break;
             }
@@ -234,6 +290,10 @@ void Cramer(int n, double** he, double* nghiem) {
 
     inRaNghiem(n, nghiem, vn, vsn);
 }
+
+
+
+
 
 
 void hePhuongTrinh() {
@@ -257,8 +317,9 @@ void hePhuongTrinh() {
         printf("--------------------------\n");
 
 
-        //Gauss_Jordan(n, he, nghiem);
-        Cramer(n, he, nghiem);
+        //Gaussian_Jordan(n, he, nghiem);
+        Gaussian_Elimination(n, he, nghiem);
+        //Cramer(n, he, nghiem);
 
 
 

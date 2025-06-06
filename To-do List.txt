@@ -1,22 +1,60 @@
-rtrim, ltrim, tokenize,
+TWO THINGS DEFINE YOU. THE PATIENCE WHEN YOU HAVE NOTHING. AND THE ATTITUDE WHEN YOU HAVE EVERYTHING.
+
+
+merge two sorted singly linked list in the increasing order
+ 
+don nối vòng còn xóa trùng.
+các thao tác cơ bản của danh sách liên kết doi, doi nối vòng.
+dao ngược
+create the fake node for doubly linked list cycle
+
+implement of stack, queue, deque
+stack using queue
+queue using stack
+stack, queue, deque using array cycle
+
+general tree
+binary tree
+
+
+
+
+
+Write a program to print a histogram of the lengths of words in its input. It is easy to draw the  histogram with the bars horizontal; a vertical orientation is more challenging
+
+svd
+
+ideal của 1 vành (giống không gian vecto của không gian vecto con) còn vành con chưa chắc là ideal(giống tập con)
+kerf của dong cấu vành là 1 ideal của R
+imf của dong cau vanh là 1 vành con của R'
+
+47 nam định 3 cách
+xoay( đặt x xong giải)
+biến doi
+tọa do cuc
+
+giao tuyến theo thứ tự của hình nón kẻ xuống
+chu trình haminton
+tích có hướng
+Định lý Stolz–Cesàro
+
+tính mũ của số phức, ma trận.
+cách dùng assert
+
+strtol, atoi, strtok, vòng lặp for tự kết thúc khi có lỗi nhập xuất nhưng ko thông báo???, làm rõ memset, memcpy, memmove, memchar, strdup(duplicate), memcmp(giống strcmp), strrev(reverse), strspn?
+doi thập phân sang la mã
+euler + lũy thừa nhanh
 đổi hệ cơ số 2, 8 , 16
 đổi 2 sang 10
 euclide trừ, chia
-tìm xuất hiện mảng con không dùng hàm
-memset
-dos
-ungetc
-in ngược (mảng phụ, chặt)
-chuẩn hóa xâu (mảng phụ, memmove)
-đổi tiền
 xếp bia
-xombie, súng, đào vàng
+súng, đào vàng
 search, sort
-đệ quy doi cơ sở 
+hàm callback
 đánh giá tmdt (nhập dữ liệu( đánh giá và kết quả đánh giá), thống kê(tính trung bình), nhập đánh giá) (0 là ko được đánh giá)(in ra nhãn it
 được quan tâm, sắp xếp theo danh gia
 
-VD5. Phân tích
+VD5. Phân tích    
 bảng chỉ số VNIndex
 trong 120 ngày gần đây
 • Nhập vào giá trị chỉ số vnindex trong 120 ngày gần đây
@@ -27,13 +65,104 @@ tính và đưa ra giá trị MA20 của dữ liệu đã nhập
 • Tìm và in ra giá trị tăng/giảm đột biến của 2 ngày liên tiếp
 • Đưa ra tỉ lệ biến đổi của chuỗi tăng/giảm lớn nhất (tỉ lệ giữa thời điểm đầu và cuối của chuỗi)
 
-
-gỡ lỗi o chap 7 + bài tập;
 khai báo hàm trong hàm khác
 Linked list (con trỏ và cấu trúc)
 Hash table
 demo mảng cấu trúc, cấp phát động
-lũy thừa nhanh
 prompt engineering
 pascal
 in 4 bao quanh 3, 2, 1
+in từ 1 file vào file kia đổi chữ thường thành hoa và hoa thành thường
+in ra tên(xử lí th biên)
+
+nhập 12345 in 12,345 và đọc muoi hai nghin...
+thay thế... p1 bằng p2
+lấy mỗi lần 1 kí tự lưu vào file khác(ghi mới, ghi append...), (nc: mỗi lần một xâu, in theo khối)
+chuyển chữ thường thành chữ hoa trong cùng 1 file(nc: mã hóa Caesar vòng tròn)
+
+
+
+• Bài tập 1. Viết chương trình mycat đọc và hiển thị nội dung một tập tin văn bản trên màn
+hình. Chương trình hỗ trợ hai cú pháp sử dụng như sau:
+• cat <filename> : Hiển thị một lần toàn bộ nội dung
+• cat <filename> -p : Hiển thị theo từng trang. Người dùng chạm một phím để xem trang
+tiếp theo
+
+
+
+Bài tập 2. Viết chương trình nhận đối số dòng lệnh là đường dẫn đến một file văn bản
+(nội dung dưới 80 dòng). Chương trình thêm một dòng mới vào cuối file nói trên với nội
+dung chứa các ký tự đầu tiên của các dòng trong file ban đầu.
+
+
+
+• Bài tập 3. Viết chương trình đọc tập tin bảng điểm (bangdiem.txt kết quả của bài tập về 
+danh sách sinh viên và bảng điểm đã cho) và lưu trữ dữ liệu sử dụng bộ nhớ động, sau đó 
+ghi chúng ra tập tin nhị phân grade.dat (chứa mảng các phần tử kiểu cấu trúc về sinh
+viên).
+• Chương trình có thể: đọc file grade.dat và hiển thị bảng điểm trên màn hình, tìm kiếm
+một sinh viên dựa trên mã số sinh viên và cập nhật điểm mới nhập từ người dùng và lưu
+vào tập tin.
+
+• Chương trình nên được viết với tương tác menu dòng lệnh:
+1. TextToDat
+2. Display Dat file 
+3. Search and Update. 
+4 Quit.
+
+
+
+
+• Bài tập 1. Viết chương trình chuyển đổi dữ liệu từ điển Việt Anh từ định dạng văn bản sang nhị phân.
+• Dữ liệu có tại
+• http://www.denisowski.org/Vietnamese/vnedict.txt
+• Miên Đất Hứa : the Promised Land 
+• Miến : Burma (short for Miến Điện) 
+• Miến Điện : Burma 
+• Miền Trung : Central Vietnam
+• Sau đó chương trình đọc dữ liệu từ tập tin nhị phần, hỏi người dùng vị trí bắt đầu và kết thúc của mục
+từ và hiển thị các từ nằm ở các vị trí này trong từ điển
+
+tính a^n với do phức tạp o(log(n))
+
+
+
+Log hành vi của người dùng trong hệ thống theo format gồm 
+YYYY-MM-DD hh:mm:ss <userid> <action> <status>
+ 
+Các action gồm
++ login
++ logout
++ search
++ update
++ delete
++ inserts
+ 
+trạng thái sẽ là 1 (success) và 0 ( fail)
+ 
+Dựa vào thông tin log đó và thời gian cần tra cứu được nhập vào từ bàn phím hãy trả về
+Những ai đang online vào thời điểm đó
+Những ai đang thực hiện việc tìm kiếm trong 10' gần nhất
+
+nhân 2 số nguyên lớn
+
+VD 2. Biểu diễn 1 vector n chiều (hoặc ma trận nxm) với các phép
+toán cơ bản như +, -, *, /, tích descartes (chuyển vị, nghịch đảo)
+
+
+Chứng minh bằng phương pháp hậu điều kiện (Hoare Logic): dựa trên các tiền điều kiện (precondition) và hậu điều kiện (postcondition) để chứng minh chương trình
+
+Chứng minh bằng phương pháp biến đổi chương trình: biến đổi chương trình về dạng chương trình đã biết
+
+Cây nhiều nhánh cân bằng B-tree
+Cây cân bằng B-Tree ❌
+
+B-Tree là cây nhiều nhánh, các node có con trỏ đến các node con, không phải cấu trúc liên tiếp.
+
+kiểm thử hộp đen, hộp trắng
+
+Lập trình tuyến tính
+
+Phân rã hàm
+
+Thiết kế hướng đối tượng

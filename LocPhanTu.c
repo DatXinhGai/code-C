@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include "readline.h"
+#include "thaoTacXau.h"
 
-
+/*
 char* readline() {
     long long data_length = 0;
     long long alloc_length = 1024;
@@ -26,7 +26,7 @@ char* readline() {
         }
 
         data_length += strlen(line);
-        if (data_length < alloc_length || data[data_length] == '\n') {
+        if (data_length < alloc_length || data[data_length - 1] == '\n') {
             break;
         }
 
@@ -50,6 +50,7 @@ char* readline() {
     data = (char*)realloc(data, data_length + 1);
     return data;
 }
+*/
 
 void inRa(long long *so, int dem) {
     for (int i = 0; i < dem; i++) {
@@ -170,7 +171,7 @@ void mangPhuChiSo(long long *so, int dem) {
 
 void locPhanTu() {
     printf("Nhập các số cách nhau bởi khoảng trắng, xuống dòng để kết thúc:\n");
-    char* input = readline();
+    char* input = ltrim(rtrim(readline()));
     char* n_ptr = input;
     char* end_ptr;
 

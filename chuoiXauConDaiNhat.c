@@ -3,11 +3,14 @@
 #include <string.h>
 
 /* SPIRIT là quy hoạch động
- * Tạo 1 bảng cỡ len(a) + len(b) rồi so sánh các phần tử ở các vị trí với a là hàng và b là cột
+ * Tạo 1 bảng cỡ len(a) + len(b) rồi so sánh các phần tử ở các vị trí với
+ * a là hàng và b là cột
  * nếu bằng nhau thì cộng với thằng (i - 1, j - 1)
  * lưu 1 biến max luôn đỡ phải chạy lại, xử lý thđb của i = 0 và j = 0
 */
 
+
+// có thể dùng readline để nhập đầu vào
 void chuoiXauConDaiNhat(void) {
     int max = 0;
 
@@ -34,7 +37,8 @@ void chuoiXauConDaiNhat(void) {
 
     int **bang = (int**)malloc(daia*sizeof(int*));
     for (int i = 0; i < daia; i++) {
-        *(bang + i) = (int*)malloc(daib*sizeof(int));   // có bang rồi nên không khởi tạo lại bang[i] nữa
+        *(bang + i) = (int*)malloc(daib*sizeof(int));
+        // có bang rồi nên không khởi tạo lại bang[i] nữa
     }
     for (int i = 0; i < daia; i++) {
         if (a[i] == b[0]) {

@@ -14,11 +14,10 @@ struct entry *addEntry(struct entry *ListPtr) {
 
     // get storage for new entry
     ListPtr->next = (struct entry*)malloc(sizeof(struct entry));
-    if (ListPtr->next == NULL) {
-        return NULL;
+    // add null to the new end of the list
+    if (ListPtr->next->next != NULL) {    // nếu nó bằng NULL sẵn rồi thì bỏ qua bước gán ở sau
+        ListPtr->next->next = NULL;    // thằng cuối phải không trỏ linh tinh
     }
 
-    // add null to the new end of the list
-     ListPtr->next->next = NULL;
     return ListPtr->next;
 }

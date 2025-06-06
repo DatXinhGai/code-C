@@ -163,11 +163,11 @@ build CMakeFiles/C.dir/nhapPhanTu.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/nha
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
-build CMakeFiles/C.dir/cmake-build-release/canBacK.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/cmake-build-release/canBacK.c || cmake_object_order_depends_target_C
-  DEP_FILE = CMakeFiles\C.dir\cmake-build-release\canBacK.c.obj.d
+build CMakeFiles/C.dir/canBacK.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/canBacK.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\canBacK.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\C.dir
-  OBJECT_FILE_DIR = CMakeFiles\C.dir\cmake-build-release
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
 
 build CMakeFiles/C.dir/ptBac3.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/ptBac3.c || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles\C.dir\ptBac3.c.obj.d
@@ -193,12 +193,6 @@ build CMakeFiles/C.dir/lamTron.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/lamTro
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
-build CMakeFiles/C.dir/linkedList.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/linkedList.c || cmake_object_order_depends_target_C
-  DEP_FILE = CMakeFiles\C.dir\linkedList.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\C.dir
-  OBJECT_FILE_DIR = CMakeFiles\C.dir
-
 build CMakeFiles/C.dir/addEntry.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/addEntry.c || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles\C.dir\addEntry.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -217,6 +211,534 @@ build CMakeFiles/C.dir/EnumVD.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/EnumVD.
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
+build CMakeFiles/C.dir/DoiTien.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/DoiTien.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\DoiTien.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/StaticAndRegister.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/StaticAndRegister.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\StaticAndRegister.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/StructAndUnion.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/StructAndUnion.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\StructAndUnion.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/thaoTacXau.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/thaoTacXau.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\thaoTacXau.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/getenvVD.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/getenvVD.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\getenvVD.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/PreprocessorDirectives.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/PreprocessorDirectives.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\PreprocessorDirectives.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/assert.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/assert.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\assert.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/ungetC.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/ungetC.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ungetC.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/Euler+LuyThuaNhanh.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/Euler+LuyThuaNhanh.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\Euler+LuyThuaNhanh.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/ktr.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/ktr.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ktr.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/doiCoSo.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/doiCoSo.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\doiCoSo.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/readLogStudent.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/readLogStudent.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\readLogStudent.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/hs.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/hs.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\hs.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/timViTriChuoiCon.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/timViTriChuoiCon.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\timViTriChuoiCon.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/inTuNguoc.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/inTuNguoc.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\inTuNguoc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/muaHang.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/muaHang.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\muaHang.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/inNguoc.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/inNguoc.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\inNguoc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/chuEchCon.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/chuEchCon.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\chuEchCon.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/xoaXuatHien.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/xoaXuatHien.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\xoaXuatHien.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/BanSp.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/BanSp.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\BanSp.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/hs2.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/hs2.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\hs2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/teststrcmp.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/teststrcmp.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\teststrcmp.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/banVang.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/banVang.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\banVang.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/test1.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/test1.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\test1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/SDaoMax.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/SDaoMax.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\SDaoMax.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/SDaoMaxToiUu.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/SDaoMaxToiUu.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\SDaoMaxToiUu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/tronThoat.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/tronThoat.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\tronThoat.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/xinPhong.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/xinPhong.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\xinPhong.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/Pokemon.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/Pokemon.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\Pokemon.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/QuyHoạchĐộng.cpp.obj: CXX_COMPILER__C_unscanned_Debug C$:/C/QuyHoạchĐộng.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\QuyHoạchĐộng.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/PokemonSao.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/PokemonSao.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\PokemonSao.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/muonXe.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/muonXe.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\muonXe.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/createTest.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/createTest.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\createTest.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/giaiMaSdt.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/giaiMaSdt.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\giaiMaSdt.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/chuyenBay.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/chuyenBay.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\chuyenBay.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/variadicFunction.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/variadicFunction.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\variadicFunction.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/queringDocument2.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/queringDocument2.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\queringDocument2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/permute.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/permute.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\permute.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/postTransition.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/postTransition.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\postTransition.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/permuteToiUu.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/permuteToiUu.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\permuteToiUu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/almostSorted.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/almostSorted.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\almostSorted.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/BomberManGame.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/BomberManGame.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\BomberManGame.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/matrixLayerRotation.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/matrixLayerRotation.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\matrixLayerRotation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/matrixLayerRotation1.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/matrixLayerRotation1.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\matrixLayerRotation1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/EmaSuperComputer.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/EmaSuperComputer.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\EmaSuperComputer.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/inTuHoa.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/inTuHoa.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\inTuHoa.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/superReducedString.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/superReducedString.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\superReducedString.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/chuoiConTongMax.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/chuoiConTongMax.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\chuoiConTongMax.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/kmpAlgo.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/kmpAlgo.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\kmpAlgo.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/digitMapping.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/digitMapping.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\digitMapping.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/ShellSort.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/ShellSort.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ShellSort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/specialCandidate.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/specialCandidate.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\specialCandidate.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/MergeSort.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/MergeSort.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\MergeSort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/QuickSort.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/QuickSort.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\QuickSort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/thapHaNoi.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/thapHaNoi.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\thapHaNoi.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/arrayManipulation.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/arrayManipulation.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\arrayManipulation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/FastExponential.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/FastExponential.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\FastExponential.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/DeQuyGianTiep.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/DeQuyGianTiep.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\DeQuyGianTiep.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/DeQuyCoNho.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/DeQuyCoNho.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\DeQuyCoNho.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/dienL.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/dienL.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\dienL.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/xepHau.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/xepHau.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\xepHau.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/giaiMeCung.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/giaiMeCung.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\giaiMeCung.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/taoXauNhiPhan.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/taoXauNhiPhan.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\taoXauNhiPhan.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/timChu.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/timChu.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\timChu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/CommonSequence.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/CommonSequence.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\CommonSequence.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/operation.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/operation.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\operation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/MazeCount.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/MazeCount.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\MazeCount.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/Sudoku.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/Sudoku.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\Sudoku.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/QHDsubString.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/QHDsubString.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\QHDsubString.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/hoanViXau.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/hoanViXau.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\hoanViXau.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/xepTuong.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/xepTuong.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\xepTuong.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/longMaze.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/longMaze.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\longMaze.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/giaiPhepTinh.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/giaiPhepTinh.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\giaiPhepTinh.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/stack.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/stack.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\stack.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/largestRectangle.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/largestRectangle.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\largestRectangle.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/sangEratosthenes.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/sangEratosthenes.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\sangEratosthenes.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/c++.cpp.obj: CXX_COMPILER__C_unscanned_Debug C$:/C/c++.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\c++.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/montyHall.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/montyHall.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\montyHall.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/dien.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/dien.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\dien.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/SinglyLinkedList.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/SinglyLinkedList.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\SinglyLinkedList.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/myMalloc.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/myMalloc.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\myMalloc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/postTransitionToiUu.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/postTransitionToiUu.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\postTransitionToiUu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/brk.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/brk.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\brk.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/pokemonToiUu.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/pokemonToiUu.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\pokemonToiUu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/textEditor.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/textEditor.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\textEditor.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/waiter.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/waiter.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\waiter.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/orderManagers.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/orderManagers.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\orderManagers.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/universalTree.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/universalTree.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\universalTree.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C
@@ -225,7 +747,7 @@ build CMakeFiles/C.dir/EnumVD.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/EnumVD.
 #############################################
 # Link the executable C.exe
 
-build C.exe: C_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/chuoiXauConDaiNhat.c.obj CMakeFiles/C.dir/nCk.c.obj CMakeFiles/C.dir/chuSoGiaiThua.c.obj CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/QHDduongDiMin.c.obj CMakeFiles/C.dir/QHDTrom.c.obj CMakeFiles/C.dir/QHDlichThiDau.c.obj CMakeFiles/C.dir/max.c.obj CMakeFiles/C.dir/min.c.obj CMakeFiles/C.dir/sacRoBot.c.obj CMakeFiles/C.dir/suoiAm.c.obj CMakeFiles/C.dir/Josephus.c.obj CMakeFiles/C.dir/test.c.obj CMakeFiles/C.dir/lichThiDauNangCao.c.obj CMakeFiles/C.dir/Bitwise.c.obj CMakeFiles/C.dir/nhapSo.c.obj CMakeFiles/C.dir/LuyThuaNhanh.c.obj CMakeFiles/C.dir/LocPhanTu.c.obj CMakeFiles/C.dir/nhapPhanTu.c.obj CMakeFiles/C.dir/cmake-build-release/canBacK.c.obj CMakeFiles/C.dir/ptBac3.c.obj CMakeFiles/C.dir/sortString.c.obj CMakeFiles/C.dir/hePhuongTrinh.c.obj CMakeFiles/C.dir/lamTron.c.obj CMakeFiles/C.dir/linkedList.c.obj CMakeFiles/C.dir/addEntry.c.obj CMakeFiles/C.dir/Enum.c.obj CMakeFiles/C.dir/EnumVD.c.obj
+build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/chuoiXauConDaiNhat.c.obj CMakeFiles/C.dir/nCk.c.obj CMakeFiles/C.dir/chuSoGiaiThua.c.obj CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/QHDduongDiMin.c.obj CMakeFiles/C.dir/QHDTrom.c.obj CMakeFiles/C.dir/QHDlichThiDau.c.obj CMakeFiles/C.dir/max.c.obj CMakeFiles/C.dir/min.c.obj CMakeFiles/C.dir/sacRoBot.c.obj CMakeFiles/C.dir/suoiAm.c.obj CMakeFiles/C.dir/Josephus.c.obj CMakeFiles/C.dir/test.c.obj CMakeFiles/C.dir/lichThiDauNangCao.c.obj CMakeFiles/C.dir/Bitwise.c.obj CMakeFiles/C.dir/nhapSo.c.obj CMakeFiles/C.dir/LuyThuaNhanh.c.obj CMakeFiles/C.dir/LocPhanTu.c.obj CMakeFiles/C.dir/nhapPhanTu.c.obj CMakeFiles/C.dir/canBacK.c.obj CMakeFiles/C.dir/ptBac3.c.obj CMakeFiles/C.dir/sortString.c.obj CMakeFiles/C.dir/hePhuongTrinh.c.obj CMakeFiles/C.dir/lamTron.c.obj CMakeFiles/C.dir/addEntry.c.obj CMakeFiles/C.dir/Enum.c.obj CMakeFiles/C.dir/EnumVD.c.obj CMakeFiles/C.dir/DoiTien.c.obj CMakeFiles/C.dir/StaticAndRegister.c.obj CMakeFiles/C.dir/StructAndUnion.c.obj CMakeFiles/C.dir/thaoTacXau.c.obj CMakeFiles/C.dir/getenvVD.c.obj CMakeFiles/C.dir/PreprocessorDirectives.c.obj CMakeFiles/C.dir/assert.c.obj CMakeFiles/C.dir/ungetC.c.obj CMakeFiles/C.dir/Euler+LuyThuaNhanh.c.obj CMakeFiles/C.dir/ktr.c.obj CMakeFiles/C.dir/doiCoSo.c.obj CMakeFiles/C.dir/readLogStudent.c.obj CMakeFiles/C.dir/hs.c.obj CMakeFiles/C.dir/timViTriChuoiCon.c.obj CMakeFiles/C.dir/inTuNguoc.c.obj CMakeFiles/C.dir/muaHang.c.obj CMakeFiles/C.dir/inNguoc.c.obj CMakeFiles/C.dir/chuEchCon.c.obj CMakeFiles/C.dir/xoaXuatHien.c.obj CMakeFiles/C.dir/BanSp.c.obj CMakeFiles/C.dir/hs2.c.obj CMakeFiles/C.dir/teststrcmp.c.obj CMakeFiles/C.dir/banVang.c.obj CMakeFiles/C.dir/test1.c.obj CMakeFiles/C.dir/SDaoMax.c.obj CMakeFiles/C.dir/SDaoMaxToiUu.c.obj CMakeFiles/C.dir/tronThoat.c.obj CMakeFiles/C.dir/xinPhong.c.obj CMakeFiles/C.dir/Pokemon.c.obj CMakeFiles/C.dir/QuyHoạchĐộng.cpp.obj CMakeFiles/C.dir/PokemonSao.c.obj CMakeFiles/C.dir/muonXe.c.obj CMakeFiles/C.dir/createTest.c.obj CMakeFiles/C.dir/giaiMaSdt.c.obj CMakeFiles/C.dir/chuyenBay.c.obj CMakeFiles/C.dir/variadicFunction.c.obj CMakeFiles/C.dir/queringDocument2.c.obj CMakeFiles/C.dir/permute.c.obj CMakeFiles/C.dir/postTransition.c.obj CMakeFiles/C.dir/permuteToiUu.c.obj CMakeFiles/C.dir/almostSorted.c.obj CMakeFiles/C.dir/BomberManGame.c.obj CMakeFiles/C.dir/matrixLayerRotation.c.obj CMakeFiles/C.dir/matrixLayerRotation1.c.obj CMakeFiles/C.dir/EmaSuperComputer.c.obj CMakeFiles/C.dir/inTuHoa.c.obj CMakeFiles/C.dir/superReducedString.c.obj CMakeFiles/C.dir/chuoiConTongMax.c.obj CMakeFiles/C.dir/kmpAlgo.c.obj CMakeFiles/C.dir/digitMapping.c.obj CMakeFiles/C.dir/ShellSort.c.obj CMakeFiles/C.dir/specialCandidate.c.obj CMakeFiles/C.dir/MergeSort.c.obj CMakeFiles/C.dir/QuickSort.c.obj CMakeFiles/C.dir/thapHaNoi.c.obj CMakeFiles/C.dir/arrayManipulation.c.obj CMakeFiles/C.dir/FastExponential.c.obj CMakeFiles/C.dir/DeQuyGianTiep.c.obj CMakeFiles/C.dir/DeQuyCoNho.c.obj CMakeFiles/C.dir/dienL.c.obj CMakeFiles/C.dir/xepHau.c.obj CMakeFiles/C.dir/giaiMeCung.c.obj CMakeFiles/C.dir/taoXauNhiPhan.c.obj CMakeFiles/C.dir/timChu.c.obj CMakeFiles/C.dir/CommonSequence.c.obj CMakeFiles/C.dir/operation.c.obj CMakeFiles/C.dir/MazeCount.c.obj CMakeFiles/C.dir/Sudoku.c.obj CMakeFiles/C.dir/QHDsubString.c.obj CMakeFiles/C.dir/hoanViXau.c.obj CMakeFiles/C.dir/xepTuong.c.obj CMakeFiles/C.dir/longMaze.c.obj CMakeFiles/C.dir/giaiPhepTinh.c.obj CMakeFiles/C.dir/stack.c.obj CMakeFiles/C.dir/largestRectangle.c.obj CMakeFiles/C.dir/sangEratosthenes.c.obj CMakeFiles/C.dir/c++.cpp.obj CMakeFiles/C.dir/montyHall.c.obj CMakeFiles/C.dir/dien.c.obj CMakeFiles/C.dir/SinglyLinkedList.c.obj CMakeFiles/C.dir/myMalloc.c.obj CMakeFiles/C.dir/postTransitionToiUu.c.obj CMakeFiles/C.dir/brk.c.obj CMakeFiles/C.dir/pokemonToiUu.c.obj CMakeFiles/C.dir/textEditor.c.obj CMakeFiles/C.dir/waiter.c.obj CMakeFiles/C.dir/orderManagers.c.obj CMakeFiles/C.dir/universalTree.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C.dir

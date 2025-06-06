@@ -1,0 +1,93 @@
+/*
+Data types, whose names have the form arr_##name or matrix_##name, are already defined with the following structures:
+typedef struct arr_##name{
+    type* arr;
+    int size;
+} arr_##name;
+
+typedef struct matrix_##name {
+    arr_##name* arr;
+    int size;
+} matrix_##name;
+If the task's output type is one of above types, your output will be scored according to the attributes[size and arr] of the returned object.
+You can read the FAQ to gain a better understanding.
+*/
+
+typedef struct {
+    int hang;
+    int cot;
+} DIACHI;
+
+
+char* solo_bingo_game(matrix_int a, matrix_int b, arr_int search)
+{
+    DIACHI *diaChiA = (DIACHI*)malloc(a.size*a.arr[0].size*sizeof(DIACHI));
+    DIACHI *diaChiB = (DIACHI*)malloc(b.size*b.arr[0].size*sizeof(DIACHI));
+    int *hanga = (int*)calloc(a.size, sizeof(int));
+    int *cota = (int*)calloc(a.arr[0].size, sizeof(int));
+    int *hangb = (int*)calloc(b.size, sizeof(int));
+    int *cotb = (int*)calloc(b.arr[0].size, sizeof(int));
+    int lena = 0;
+    int lenb = 0;
+    int xuonga = 0;
+    int xuongb = 0;
+
+    for (int i = 0; i < a.size; i++) {
+        for (int j = 0; j < a.arr[0].size; j++) {
+            diaChiA[a.arr[i].arr[j] - 1].hang = i;
+            diaChiA[a.arr[i].arr[j] - 1].cot = j;
+            diaChiB[b.arr[i].arr[j] - 1].hang = i;
+            diaChiB[b.arr[i].arr[j] - 1].cot = j;
+        }
+    }
+
+    char thang = '0';
+    char thanga = '0';
+    char thangb = '0';
+    for (int i = 0; i < search.size; i++) {
+        int rowa = diaChiA[search.arr[i] - 1].hang; 
+        int cola = diaChiA[search.arr[i] - 1].cot;
+        hanga[rowa]++;
+        cota[cola]++;
+        if (rowa == cola) {
+            xuonga++;
+        } else if (rowa + cola == a.size - 1) {
+            lena++;
+        }
+
+        int rowb = diaChiB[search.arr[i] - 1].hang;
+        int colb = diaChiB[search.arr[i] - 1].cot;
+        hangb[rowb]++;
+        cotb[colb]++;
+        if (rowb == colb) {
+            xuongb++;
+        } else if (rowb + colb == b.size - 1) {
+            lenb++;
+        }
+
+        if (hanga[rowa] == a.size || cota[cola] == a.size || xuonga == a.size || lena == a.size) {
+            thanga = 'a';
+        }
+        if (hangb[rowb] == b.size || cotb[colb] == b.size || xuongb == b.size || lenb == b.size) {
+            thangb = 'b';
+        }
+        if (thanga == 'a' && thangb == 'b') {
+            break;
+        } else if (thanga == 'a') {
+            thang = 'a';
+            break;
+        } else if (thangb == 'b') {
+            thang = 'b';
+            break;
+        }
+
+    }
+
+    if (thang == 'a') {
+        return "Long";
+    } else if (thang == 'b') {
+        return "Phu";
+    } 
+    return "Good";
+    
+}

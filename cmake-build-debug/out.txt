@@ -1,0 +1,4 @@
+Độ dài chuỗi tăng dài nhất là: 2
+Bắt đầu từ phần tử thứ: 1
+Các phần tử lần lượt là: 
+2 3 

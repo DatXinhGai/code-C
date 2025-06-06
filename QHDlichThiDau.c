@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include "max.h"
 
-void lichThiDauQHD() {
+void QHDlichThiDau() {
     // khởi tạo
     int n, k;
     scanf("%d%d", &n, &k);
@@ -66,8 +66,8 @@ void lichThiDauQHD() {
         while (chiSo[dem] >= 2*k - 1) {
             dem++;
             max3 = 0;
-            for (int i = k; i <= 2*k - 1; i++) {
-                if (lich[chiSo[dem - 1] - i] > max3) {
+            for (int i = k; i <= 2*k - 1; i++) {        // tìm trong 199 ngày trước đó xem đâu có tiền thưởng max
+                if (lich[chiSo[dem - 1] - i] > max3) {  // lưu các ngày đã thi đấu
                     max3 = lich[chiSo[dem - 1] - i];
                     chiSo[dem] = chiSo[dem - 1] - i;
                 }
@@ -78,7 +78,7 @@ void lichThiDauQHD() {
     if (chiSo[dem] >= k) {
         int max4 = 0;
         dem++;
-        for (int i = 0; i <= chiSo[dem]; i++) {
+        for (int i = 0; i <= chiSo[dem]; i++) {     // tìm ngày thi đấu đầu tiên
             if (lich[i] > max4) {
                 max4 = lich[i];
                 chiSo[dem] = i;
