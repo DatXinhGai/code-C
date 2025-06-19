@@ -9,6 +9,7 @@ add_executable(C
     .idea/editor.xml
     .idea/modules.xml
         chuoiXauConDaiNhat.c
+        ShellSort.c
         nCk.c
         chuSoGiaiThua.c
         main.c
@@ -95,7 +96,6 @@ add_executable(C
         chuoiConTongMax.c
         kmpAlgo.c
         digitMapping.c
-        ShellSort.c
         specialCandidate.c
         MergeSort.c
         QuickSort.c
@@ -124,7 +124,6 @@ add_executable(C
         c++.cpp
         montyHall.c
         dien.c
-        SinglyLinkedList.c
         myMalloc.c
         postTransitionToiUu.c
         brk.c
@@ -133,4 +132,12 @@ add_executable(C
         waiter.c
         orderManagers.c
         universalTree.c
+        prefixTree.c
+        XML.c
+        directoryManager.c
+        linuxDir.c
+        WIN32_FIND_DATA.c
+        DSA.h
+        buddySytem.c
+        threeWayQuickSort.c
 )

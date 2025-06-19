@@ -55,6 +55,12 @@ build CMakeFiles/C.dir/chuoiXauConDaiNhat.c.obj: C_COMPILER__C_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
+build CMakeFiles/C.dir/ShellSort.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/ShellSort.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\ShellSort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
 build CMakeFiles/C.dir/nCk.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/nCk.c || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles\C.dir\nCk.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -511,12 +517,6 @@ build CMakeFiles/C.dir/digitMapping.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/d
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
-build CMakeFiles/C.dir/ShellSort.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/ShellSort.c || cmake_object_order_depends_target_C
-  DEP_FILE = CMakeFiles\C.dir\ShellSort.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\C.dir
-  OBJECT_FILE_DIR = CMakeFiles\C.dir
-
 build CMakeFiles/C.dir/specialCandidate.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/specialCandidate.c || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles\C.dir\specialCandidate.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -685,12 +685,6 @@ build CMakeFiles/C.dir/dien.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/dien.c ||
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
-build CMakeFiles/C.dir/SinglyLinkedList.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/SinglyLinkedList.c || cmake_object_order_depends_target_C
-  DEP_FILE = CMakeFiles\C.dir\SinglyLinkedList.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\C.dir
-  OBJECT_FILE_DIR = CMakeFiles\C.dir
-
 build CMakeFiles/C.dir/myMalloc.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/myMalloc.c || cmake_object_order_depends_target_C
   DEP_FILE = CMakeFiles\C.dir\myMalloc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -739,6 +733,48 @@ build CMakeFiles/C.dir/universalTree.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/
   OBJECT_DIR = CMakeFiles\C.dir
   OBJECT_FILE_DIR = CMakeFiles\C.dir
 
+build CMakeFiles/C.dir/prefixTree.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/prefixTree.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\prefixTree.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/XML.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/XML.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\XML.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/directoryManager.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/directoryManager.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\directoryManager.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/linuxDir.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/linuxDir.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\linuxDir.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/WIN32_FIND_DATA.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/WIN32_FIND_DATA.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\WIN32_FIND_DATA.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/buddySytem.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/buddySytem.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\buddySytem.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+build CMakeFiles/C.dir/threeWayQuickSort.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/threeWayQuickSort.c || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\threeWayQuickSort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C
@@ -747,7 +783,7 @@ build CMakeFiles/C.dir/universalTree.c.obj: C_COMPILER__C_unscanned_Debug C$:/C/
 #############################################
 # Link the executable C.exe
 
-build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/chuoiXauConDaiNhat.c.obj CMakeFiles/C.dir/nCk.c.obj CMakeFiles/C.dir/chuSoGiaiThua.c.obj CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/QHDduongDiMin.c.obj CMakeFiles/C.dir/QHDTrom.c.obj CMakeFiles/C.dir/QHDlichThiDau.c.obj CMakeFiles/C.dir/max.c.obj CMakeFiles/C.dir/min.c.obj CMakeFiles/C.dir/sacRoBot.c.obj CMakeFiles/C.dir/suoiAm.c.obj CMakeFiles/C.dir/Josephus.c.obj CMakeFiles/C.dir/test.c.obj CMakeFiles/C.dir/lichThiDauNangCao.c.obj CMakeFiles/C.dir/Bitwise.c.obj CMakeFiles/C.dir/nhapSo.c.obj CMakeFiles/C.dir/LuyThuaNhanh.c.obj CMakeFiles/C.dir/LocPhanTu.c.obj CMakeFiles/C.dir/nhapPhanTu.c.obj CMakeFiles/C.dir/canBacK.c.obj CMakeFiles/C.dir/ptBac3.c.obj CMakeFiles/C.dir/sortString.c.obj CMakeFiles/C.dir/hePhuongTrinh.c.obj CMakeFiles/C.dir/lamTron.c.obj CMakeFiles/C.dir/addEntry.c.obj CMakeFiles/C.dir/Enum.c.obj CMakeFiles/C.dir/EnumVD.c.obj CMakeFiles/C.dir/DoiTien.c.obj CMakeFiles/C.dir/StaticAndRegister.c.obj CMakeFiles/C.dir/StructAndUnion.c.obj CMakeFiles/C.dir/thaoTacXau.c.obj CMakeFiles/C.dir/getenvVD.c.obj CMakeFiles/C.dir/PreprocessorDirectives.c.obj CMakeFiles/C.dir/assert.c.obj CMakeFiles/C.dir/ungetC.c.obj CMakeFiles/C.dir/Euler+LuyThuaNhanh.c.obj CMakeFiles/C.dir/ktr.c.obj CMakeFiles/C.dir/doiCoSo.c.obj CMakeFiles/C.dir/readLogStudent.c.obj CMakeFiles/C.dir/hs.c.obj CMakeFiles/C.dir/timViTriChuoiCon.c.obj CMakeFiles/C.dir/inTuNguoc.c.obj CMakeFiles/C.dir/muaHang.c.obj CMakeFiles/C.dir/inNguoc.c.obj CMakeFiles/C.dir/chuEchCon.c.obj CMakeFiles/C.dir/xoaXuatHien.c.obj CMakeFiles/C.dir/BanSp.c.obj CMakeFiles/C.dir/hs2.c.obj CMakeFiles/C.dir/teststrcmp.c.obj CMakeFiles/C.dir/banVang.c.obj CMakeFiles/C.dir/test1.c.obj CMakeFiles/C.dir/SDaoMax.c.obj CMakeFiles/C.dir/SDaoMaxToiUu.c.obj CMakeFiles/C.dir/tronThoat.c.obj CMakeFiles/C.dir/xinPhong.c.obj CMakeFiles/C.dir/Pokemon.c.obj CMakeFiles/C.dir/QuyHoạchĐộng.cpp.obj CMakeFiles/C.dir/PokemonSao.c.obj CMakeFiles/C.dir/muonXe.c.obj CMakeFiles/C.dir/createTest.c.obj CMakeFiles/C.dir/giaiMaSdt.c.obj CMakeFiles/C.dir/chuyenBay.c.obj CMakeFiles/C.dir/variadicFunction.c.obj CMakeFiles/C.dir/queringDocument2.c.obj CMakeFiles/C.dir/permute.c.obj CMakeFiles/C.dir/postTransition.c.obj CMakeFiles/C.dir/permuteToiUu.c.obj CMakeFiles/C.dir/almostSorted.c.obj CMakeFiles/C.dir/BomberManGame.c.obj CMakeFiles/C.dir/matrixLayerRotation.c.obj CMakeFiles/C.dir/matrixLayerRotation1.c.obj CMakeFiles/C.dir/EmaSuperComputer.c.obj CMakeFiles/C.dir/inTuHoa.c.obj CMakeFiles/C.dir/superReducedString.c.obj CMakeFiles/C.dir/chuoiConTongMax.c.obj CMakeFiles/C.dir/kmpAlgo.c.obj CMakeFiles/C.dir/digitMapping.c.obj CMakeFiles/C.dir/ShellSort.c.obj CMakeFiles/C.dir/specialCandidate.c.obj CMakeFiles/C.dir/MergeSort.c.obj CMakeFiles/C.dir/QuickSort.c.obj CMakeFiles/C.dir/thapHaNoi.c.obj CMakeFiles/C.dir/arrayManipulation.c.obj CMakeFiles/C.dir/FastExponential.c.obj CMakeFiles/C.dir/DeQuyGianTiep.c.obj CMakeFiles/C.dir/DeQuyCoNho.c.obj CMakeFiles/C.dir/dienL.c.obj CMakeFiles/C.dir/xepHau.c.obj CMakeFiles/C.dir/giaiMeCung.c.obj CMakeFiles/C.dir/taoXauNhiPhan.c.obj CMakeFiles/C.dir/timChu.c.obj CMakeFiles/C.dir/CommonSequence.c.obj CMakeFiles/C.dir/operation.c.obj CMakeFiles/C.dir/MazeCount.c.obj CMakeFiles/C.dir/Sudoku.c.obj CMakeFiles/C.dir/QHDsubString.c.obj CMakeFiles/C.dir/hoanViXau.c.obj CMakeFiles/C.dir/xepTuong.c.obj CMakeFiles/C.dir/longMaze.c.obj CMakeFiles/C.dir/giaiPhepTinh.c.obj CMakeFiles/C.dir/stack.c.obj CMakeFiles/C.dir/largestRectangle.c.obj CMakeFiles/C.dir/sangEratosthenes.c.obj CMakeFiles/C.dir/c++.cpp.obj CMakeFiles/C.dir/montyHall.c.obj CMakeFiles/C.dir/dien.c.obj CMakeFiles/C.dir/SinglyLinkedList.c.obj CMakeFiles/C.dir/myMalloc.c.obj CMakeFiles/C.dir/postTransitionToiUu.c.obj CMakeFiles/C.dir/brk.c.obj CMakeFiles/C.dir/pokemonToiUu.c.obj CMakeFiles/C.dir/textEditor.c.obj CMakeFiles/C.dir/waiter.c.obj CMakeFiles/C.dir/orderManagers.c.obj CMakeFiles/C.dir/universalTree.c.obj
+build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/chuoiXauConDaiNhat.c.obj CMakeFiles/C.dir/ShellSort.c.obj CMakeFiles/C.dir/nCk.c.obj CMakeFiles/C.dir/chuSoGiaiThua.c.obj CMakeFiles/C.dir/main.c.obj CMakeFiles/C.dir/QHDduongDiMin.c.obj CMakeFiles/C.dir/QHDTrom.c.obj CMakeFiles/C.dir/QHDlichThiDau.c.obj CMakeFiles/C.dir/max.c.obj CMakeFiles/C.dir/min.c.obj CMakeFiles/C.dir/sacRoBot.c.obj CMakeFiles/C.dir/suoiAm.c.obj CMakeFiles/C.dir/Josephus.c.obj CMakeFiles/C.dir/test.c.obj CMakeFiles/C.dir/lichThiDauNangCao.c.obj CMakeFiles/C.dir/Bitwise.c.obj CMakeFiles/C.dir/nhapSo.c.obj CMakeFiles/C.dir/LuyThuaNhanh.c.obj CMakeFiles/C.dir/LocPhanTu.c.obj CMakeFiles/C.dir/nhapPhanTu.c.obj CMakeFiles/C.dir/canBacK.c.obj CMakeFiles/C.dir/ptBac3.c.obj CMakeFiles/C.dir/sortString.c.obj CMakeFiles/C.dir/hePhuongTrinh.c.obj CMakeFiles/C.dir/lamTron.c.obj CMakeFiles/C.dir/addEntry.c.obj CMakeFiles/C.dir/Enum.c.obj CMakeFiles/C.dir/EnumVD.c.obj CMakeFiles/C.dir/DoiTien.c.obj CMakeFiles/C.dir/StaticAndRegister.c.obj CMakeFiles/C.dir/StructAndUnion.c.obj CMakeFiles/C.dir/thaoTacXau.c.obj CMakeFiles/C.dir/getenvVD.c.obj CMakeFiles/C.dir/PreprocessorDirectives.c.obj CMakeFiles/C.dir/assert.c.obj CMakeFiles/C.dir/ungetC.c.obj CMakeFiles/C.dir/Euler+LuyThuaNhanh.c.obj CMakeFiles/C.dir/ktr.c.obj CMakeFiles/C.dir/doiCoSo.c.obj CMakeFiles/C.dir/readLogStudent.c.obj CMakeFiles/C.dir/hs.c.obj CMakeFiles/C.dir/timViTriChuoiCon.c.obj CMakeFiles/C.dir/inTuNguoc.c.obj CMakeFiles/C.dir/muaHang.c.obj CMakeFiles/C.dir/inNguoc.c.obj CMakeFiles/C.dir/chuEchCon.c.obj CMakeFiles/C.dir/xoaXuatHien.c.obj CMakeFiles/C.dir/BanSp.c.obj CMakeFiles/C.dir/hs2.c.obj CMakeFiles/C.dir/teststrcmp.c.obj CMakeFiles/C.dir/banVang.c.obj CMakeFiles/C.dir/test1.c.obj CMakeFiles/C.dir/SDaoMax.c.obj CMakeFiles/C.dir/SDaoMaxToiUu.c.obj CMakeFiles/C.dir/tronThoat.c.obj CMakeFiles/C.dir/xinPhong.c.obj CMakeFiles/C.dir/Pokemon.c.obj CMakeFiles/C.dir/QuyHoạchĐộng.cpp.obj CMakeFiles/C.dir/PokemonSao.c.obj CMakeFiles/C.dir/muonXe.c.obj CMakeFiles/C.dir/createTest.c.obj CMakeFiles/C.dir/giaiMaSdt.c.obj CMakeFiles/C.dir/chuyenBay.c.obj CMakeFiles/C.dir/variadicFunction.c.obj CMakeFiles/C.dir/queringDocument2.c.obj CMakeFiles/C.dir/permute.c.obj CMakeFiles/C.dir/postTransition.c.obj CMakeFiles/C.dir/permuteToiUu.c.obj CMakeFiles/C.dir/almostSorted.c.obj CMakeFiles/C.dir/BomberManGame.c.obj CMakeFiles/C.dir/matrixLayerRotation.c.obj CMakeFiles/C.dir/matrixLayerRotation1.c.obj CMakeFiles/C.dir/EmaSuperComputer.c.obj CMakeFiles/C.dir/inTuHoa.c.obj CMakeFiles/C.dir/superReducedString.c.obj CMakeFiles/C.dir/chuoiConTongMax.c.obj CMakeFiles/C.dir/kmpAlgo.c.obj CMakeFiles/C.dir/digitMapping.c.obj CMakeFiles/C.dir/specialCandidate.c.obj CMakeFiles/C.dir/MergeSort.c.obj CMakeFiles/C.dir/QuickSort.c.obj CMakeFiles/C.dir/thapHaNoi.c.obj CMakeFiles/C.dir/arrayManipulation.c.obj CMakeFiles/C.dir/FastExponential.c.obj CMakeFiles/C.dir/DeQuyGianTiep.c.obj CMakeFiles/C.dir/DeQuyCoNho.c.obj CMakeFiles/C.dir/dienL.c.obj CMakeFiles/C.dir/xepHau.c.obj CMakeFiles/C.dir/giaiMeCung.c.obj CMakeFiles/C.dir/taoXauNhiPhan.c.obj CMakeFiles/C.dir/timChu.c.obj CMakeFiles/C.dir/CommonSequence.c.obj CMakeFiles/C.dir/operation.c.obj CMakeFiles/C.dir/MazeCount.c.obj CMakeFiles/C.dir/Sudoku.c.obj CMakeFiles/C.dir/QHDsubString.c.obj CMakeFiles/C.dir/hoanViXau.c.obj CMakeFiles/C.dir/xepTuong.c.obj CMakeFiles/C.dir/longMaze.c.obj CMakeFiles/C.dir/giaiPhepTinh.c.obj CMakeFiles/C.dir/stack.c.obj CMakeFiles/C.dir/largestRectangle.c.obj CMakeFiles/C.dir/sangEratosthenes.c.obj CMakeFiles/C.dir/c++.cpp.obj CMakeFiles/C.dir/montyHall.c.obj CMakeFiles/C.dir/dien.c.obj CMakeFiles/C.dir/myMalloc.c.obj CMakeFiles/C.dir/postTransitionToiUu.c.obj CMakeFiles/C.dir/brk.c.obj CMakeFiles/C.dir/pokemonToiUu.c.obj CMakeFiles/C.dir/textEditor.c.obj CMakeFiles/C.dir/waiter.c.obj CMakeFiles/C.dir/orderManagers.c.obj CMakeFiles/C.dir/universalTree.c.obj CMakeFiles/C.dir/prefixTree.c.obj CMakeFiles/C.dir/XML.c.obj CMakeFiles/C.dir/directoryManager.c.obj CMakeFiles/C.dir/linuxDir.c.obj CMakeFiles/C.dir/WIN32_FIND_DATA.c.obj CMakeFiles/C.dir/buddySytem.c.obj CMakeFiles/C.dir/threeWayQuickSort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C.dir

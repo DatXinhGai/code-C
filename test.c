@@ -17,6 +17,8 @@ void test() {
     printf("2\n");
     scanf(" %c", &c2);  // dấu cách dùng để bỏ mọi loại kí tự trống, kể cả \n, tab
     printf("%c", c2);
+
+
 }
 
 

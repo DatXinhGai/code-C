@@ -2,20 +2,24 @@
 // Created by HP LAPTOP on 26/12/2024.
 //
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <ctype.h>
-
 extern int myMalloc();
+extern int buddySystem();
 extern int orderManagers();
-extern int universalTree();
 extern int prefixTree();
+extern int XML();
+extern int directoryManager();
+
+extern int linuxDir();
+extern int win32_find_data();
 
 int main(void)
 {
     //myMalloc();
-    orderManagers();
-
+    //buddySystem();
+    //orderManagers();
+    prefixTree();
+    //XML();
+    //directoryManager();
+    return 0;
 }
 

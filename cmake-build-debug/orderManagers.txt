@@ -1,150 +1,694 @@
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
 ------------------------------------------
-Thu Jun 05 22:14:38 2025
-	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
-	Số đĩa đặt: 2
-	Số món đặt: 1
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
 ------------------------------------------
-Thu Jun 05 22:14:38 2025
-	Số đĩa đặt: 3
-	Số món đặt: 2
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
 ------------------------------------------
-Thu Jun 05 22:14:38 2025
-	Món: Com Tam                  Số lượng: 1     
-	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
-	Số đĩa đặt: 2
-	Số món đặt: 2
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
 ------------------------------------------
-Thu Jun 05 22:14:38 2025
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
 ------------------------------------------
-Thu Jun 05 22:14:38 2025
-	Món: Bun ngan                 Số lượng: 2     
-	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
 ------------------------------------------
-Thu Jun 05 22:14:38 2025
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
 ------------------------------------------
-Thu Jun 05 22:17:19 2025
-	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
-	Số đĩa đặt: 2
-	Số món đặt: 1
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
 ------------------------------------------
-Thu Jun 05 22:17:19 2025
-	Món: Com Tam                  Số lượng: 1     
-	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
-	Số đĩa đặt: 2
-	Số món đặt: 2
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
 ------------------------------------------
-Thu Jun 05 22:17:19 2025
-	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Sat Jun 07 07:47:36 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 6
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 07:47:36 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Sat Jun 07 07:47:36 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 5
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 07:47:36 2025
 ------------------------------------------
-Thu Jun 05 22:17:19 2025
-	Món: Bun ngan                 Số lượng: 2     
-	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Sat Jun 07 07:47:36 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 07:47:36 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:19 2025
-Đơn đã bị hủy hoặc đã hoàn thành!------------------------------------------
-Thu Jun 05 22:17:34 2025
-	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
-	Số đĩa đặt: 2
-	Số món đặt: 1
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Sat Jun 07 07:47:36 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 6
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 07:47:36 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:34 2025
-	Món: Com Tam                  Số lượng: 1     
-	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
-	Số đĩa đặt: 2
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Sat Jun 07 07:47:36 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 5
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 07:47:36 2025
+Thanh toán thành công!
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Sat Jun 07 09:40:34 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 6
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 09:40:34 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Sat Jun 07 09:40:34 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 5
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 09:40:34 2025
 ------------------------------------------
-Thu Jun 05 22:17:34 2025
-	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Sat Jun 07 09:40:34 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 09:40:34 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:34 2025
-	Món: Bun ngan                 Số lượng: 2     
-	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Sat Jun 07 09:40:34 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 6
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 09:40:34 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:34 2025
-Đơn đã bị hủy hoặc đã hoàn thành!
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Sat Jun 07 09:40:34 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 5
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Sat Jun 07 09:40:34 2025
+Thanh toán thành công!
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:55:37 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:37 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:55:37 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:37 2025
 ------------------------------------------
-Thu Jun 05 22:17:55 2025
-	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
-	Số đĩa đặt: 2
-	Số món đặt: 1
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 19:55:37 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:37 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:55 2025
-	Món: Com Tam                  Số lượng: 1     
-	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
-	Số đĩa đặt: 2
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:55:37 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:37 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:55 2025
-	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:55:37 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1     Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:55:52 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:52 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:55:52 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:52 2025
 ------------------------------------------
-Thu Jun 05 22:17:55 2025
-	Món: Bun ngan                 Số lượng: 2     
-	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 19:55:52 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:52 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:17:55 2025
-Đơn đã bị hủy hoặc đã hoàn thành!
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:55:52 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:55:52 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:18:01 2025
-	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
-	Số đĩa đặt: 2
-	Số món đặt: 1
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:55:52 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1     Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:56:02 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:56:02 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:56:02 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:56:02 2025
 ------------------------------------------
-Thu Jun 05 22:18:01 2025
-	Món: Com Tam                  Số lượng: 1     
-	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
-	Số đĩa đặt: 2
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 19:56:02 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:56:02 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:18:01 2025
-	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:56:02 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:56:02 2025
+Thanh toán thành công!
 ------------------------------------------
-Thu Jun 05 22:18:01 2025
-	Món: Bun ngan                 Số lượng: 2     
-	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:56:02 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1     Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:59:19 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi chú: khach khong an
+Tổng số món đã đặt là: -1
+Tổng số đĩa đã đặt là: -1
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 2
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:59:19 2025
 ------------------------------------------
-Thu Jun 05 22:18:01 2025
-Đơn đã bị hủy hoặc đã hoàn thành!
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:59:19 2025
+Thanh toán thành công!
 ------------------------------------------
-Fri Jun 06 11:03:58 2025
-	Món: Com Rang Dua Bo          Số lượng: 2          Ghi chú: full topping
-	Số đĩa đặt: 2
-	Số món đặt: 1
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:59:19 2025
+Thanh toán thành công!
 ------------------------------------------
-Fri Jun 06 11:03:58 2025
-	Món: Com Tam                  Số lượng: 1     
-	Món: Coca Cola                Số lượng: 1          Ghi chú: lanh
-	Số đĩa đặt: 2
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi chú: khach khong an
+Tổng số món đã đặt là: -1
+Tổng số đĩa đã đặt là: -1
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 2
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:59:19 2025
+Thanh toán thành công!
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 19:59:19 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 19:59:19 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi ch�Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 20:01:16 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:01:16 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 20:01:16 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi chú: khach khong an
+Tổng số món đã đặt là: -1
+Tổng số đĩa đã đặt là: -1
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 2
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:01:16 2025
 ------------------------------------------
-Fri Jun 06 11:03:58 2025
-	Món: Pho Nam Dinh             Số lượng: 2          Ghi chú: tai
-	Món: Bun Dau Mam Tom          Số lượng: 1          Ghi chú: cham nuoc mam
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 20:01:16 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:01:16 2025
+Thanh toán thành công!
 ------------------------------------------
-Fri Jun 06 11:03:58 2025
-	Món: Bun ngan                 Số lượng: 2     
-	Món: Bun bo                   Số lượng: 1          Ghi chú: chin tai
-	Số đĩa đặt: 3
-	Số món đặt: 2
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 20:01:16 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 0
+Tổng số đĩa đã đặt là: 0
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:01:16 2025
+Thanh toán thành công!
 ------------------------------------------
-Fri Jun 06 11:03:58 2025
-Đơn đã bị hủy hoặc đã hoàn thành!
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 20:01:16 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi chú: khach khong an
+Tổng số món đã đặt là: -1
+Tổng số đĩa đã đặt là: -1
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 2
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:01:16 2025
+Thanh toán thành công!
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 20:05:27 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 2
+Tổng số đĩa đã đặt là: 2
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:05:27 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 20:05:27 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi chú: khach khong an
+Tổng số món đã đặt là: 1
+Tổng số đĩa đã đặt là: 2
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 2
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:05:27 2025
+------------------------------------------
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 20:05:27 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+Tổng số món đã đặt là: 3
+Tổng số đĩa đã đặt là: 4
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:05:27 2025
+Thanh toán thành công!
+------------------------------------------
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 20:05:27 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+Tổng số món đã đặt là: 2
+Tổng số đĩa đã đặt là: 2
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:05:27 2025
+Thanh toán thành công!
+------------------------------------------
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 20:05:27 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 0          Số đĩa đã trả: 0          Ghi chú: khach khong an
+Tổng số món đã đặt là: 1
+Tổng số đĩa đã đặt là: 2
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 2
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:05:27 2025
+Thanh toán thành công!
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 20:06:02 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 6
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:06:02 2025
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 20:06:02 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 5
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:06:02 2025
+------------------------------------------
+Bàn được phục vụ là bàn số: 1
+Order được tạo lúc: Mon Jun 16 20:06:02 2025
+
+Nhân viên phục vụ: NV012
+	Món: Bun ngan                Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Bun bo                  Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: chin tai
+	Món: Mi xao                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Nem ran                 Số đĩa đặt: 3          Số đĩa đã trả: 0          Ghi chú: nuoc mam
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:06:02 2025
+Thanh toán thành công!
+------------------------------------------
+Bàn được phục vụ là bàn số: 3
+Order được tạo lúc: Mon Jun 16 20:06:02 2025
+
+Nhân viên phục vụ: NV015
+	Món: Pho bo                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: tai nam
+	Món: Com rang                Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: tom
+	Món: Lau bo                  Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: them sa
+	Món: Banh da cua             Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: nuoc ngot
+Tổng số món đã đặt là: 4
+Tổng số đĩa đã đặt là: 6
+Tổng số món đã trả là: 1
+Tống số đĩa đã trả là: 1
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:06:02 2025
+Thanh toán thành công!
+------------------------------------------
+Bàn được phục vụ là bàn số: 5
+Order được tạo lúc: Mon Jun 16 20:06:02 2025
+
+Nhân viên phục vụ: NV020
+	Món: Banh cuon               Số đĩa đặt: 2          Số đĩa đã trả: 2          Ghi chú: 
+	Món: Xoi xeo                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: them hanh
+	Món: Bun cha                 Số đĩa đặt: 2          Số đĩa đã trả: 0          Ghi chú: 
+	Món: Cha ca                  Số đĩa đặt: 1          Số đĩa đã trả: 0          Ghi chú: them rau
+	Món: Lau ech                 Số đĩa đặt: 1          Số đĩa đã trả: 1          Ghi chú: 
+Tổng số món đã đặt là: 5
+Tổng số đĩa đã đặt là: 7
+Tổng số món đã trả là: 3
+Tống số đĩa đã trả là: 4
+Thời gian cập nhật gần nhất của order là: Mon Jun 16 20:06:02 2025
+Thanh toán thành công!

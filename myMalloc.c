@@ -5,14 +5,14 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include <limits.h>
 #include <stdint.h>
 
-// tối ưu thì phải binary search tree(BST) để kiểm soát
 
+// tối ưu thì phải binary search tree(BST) để kiểm soát
 // cấp phát -> frac (gồm vừa đủ hoặc thừa) -> initialize
 // thu hồi -> merge (insert hoặc push)
 // free_mem
+
 
 typedef struct MEMORY_BLOCK {
     void* start_addr;           // địa chỉ bắt đầu
@@ -20,12 +20,14 @@ typedef struct MEMORY_BLOCK {
     struct MEMORY_BLOCK* next;  // block tiếp theo
 } MEMORY_BLOCK;
 
+
 // ở ngoài hàm nên là static, khỏi truyền vào ** và không phải khai báo ở hàm
 MEMORY_BLOCK* free_list = NULL;
 
+
+
 // lưu vị trí tiếp theo của khối vừa cấp phát gần nhất để dùng cho next_fit
 MEMORY_BLOCK* cur_last_pos = NULL;
-
 MEMORY_BLOCK* prev_last_pos = NULL;
 
 void print_free_list();
@@ -33,6 +35,7 @@ void print_free_list();
 void print_stderr() {
     fprintf(stderr, "Allocated Unsuccessfully\n");
     exit(EXIT_FAILURE);
+
 }
 
 // hàm khởi tạo bộ nhớ
@@ -79,7 +82,7 @@ void frac(MEMORY_BLOCK* current, MEMORY_BLOCK* prev, size_t size) {
         }
     }
 
-    // lưu lại để dùng cho next_fit
+    // LƯU LẠI ĐỂ DÙNG CHO NEXT_FIT
     cur_last_pos = (prev == NULL)? free_list : prev->next;
     prev_last_pos = (prev == NULL)? NULL : prev;
 }
@@ -88,7 +91,7 @@ void frac(MEMORY_BLOCK* current, MEMORY_BLOCK* prev, size_t size) {
 void insert_memory_block(void* ptr, size_t size) {
 
     MEMORY_BLOCK* base_block = free_list;
-    // tìm vị trí đầu tiên đứng sau ptr
+    // tìm vị trí cuối cùng đứng trước ptr
     while (base_block->next != NULL && base_block->next->start_addr < ptr) {
         base_block = base_block->next;
     }
@@ -96,12 +99,12 @@ void insert_memory_block(void* ptr, size_t size) {
     MEMORY_BLOCK* remaining_block = base_block->next;
 
     // xử lí phần sau
-    if (remaining_block != NULL) {
+    if (remaining_block != NULL) {  // nếu đằng sau tồn tại khối
         // phần sau khớp
         if (ptr + size == remaining_block->start_addr) {
 
-            remaining_block->size += size;                  // tăng size
-            remaining_block->start_addr = ptr;             // chỉnh phần bắt đầu của remaining
+            remaining_block->size += size;        // tăng size
+            remaining_block->start_addr = ptr;    // chỉnh phần bắt đầu của remaining
         } else {    // không khớp
             MEMORY_BLOCK* new_block = initialize_block(ptr, size);
             new_block->next = remaining_block;
@@ -115,7 +118,7 @@ void insert_memory_block(void* ptr, size_t size) {
         // vừa đủ
         base_block->size += remaining_block->size;
         base_block->next = remaining_block->next;
-        free(remaining_block);                      // không cần remaining để quản lí nữa
+        free(remaining_block);   // không cần remaining để quản lí nữa
     } else {
         base_block->next = remaining_block;
     }
@@ -139,7 +142,9 @@ void push_memory_block(void* ptr, size_t size) {
     free_list = new_block;
 }
 
-// hàm hợp nhất tất cả cái khối có thể ( nhất là khi buddy system )
+// hàm hợp nhất tất cả cái khối có thể
+// thực ra chỉ cần xét đằng trước và sau của khối trả về thôi
+// tìm được thì có thể kết thúc sớm
 void merge_memory_block() {
     MEMORY_BLOCK* cur_block = free_list;
 
@@ -157,12 +162,13 @@ void merge_memory_block() {
 
 // trả lại bộ nhớ cho hệ thống
 void free_mem(void* ptr, size_t size) {
+    // trả lại
     if (ptr < free_list->start_addr) {
         push_memory_block(ptr, size);
     } else {
         insert_memory_block(ptr, size);
     }
-
+    // merge tất cả các khối liền kề
     merge_memory_block();
 }
 
@@ -280,7 +286,7 @@ void* next_fit_malloc(size_t size) {
             MEMORY_BLOCK* temp = cur_last_pos;
             void* addr = cur_last_pos->start_addr;
 
-            // sau bước này cur_last_pos thay đổi vì vậy phải lưu biến khác để free
+            // sau bước này cur_last_pos thay đổi vì vậy phải lưu biến khác để free!
             frac(cur_last_pos, prev_last_pos, size);
 
             free(temp);
@@ -295,51 +301,6 @@ void* next_fit_malloc(size_t size) {
     return NULL;
 }
 
-
-// hàm đệ quy chia khối của buddy system
-void binary_frac(MEMORY_BLOCK* current, size_t size) {
-    if (current->size <= 2*size) {
-        return ;
-    }
-
-    size_t padding = current->size / 2;
-
-    MEMORY_BLOCK* mid_block = initialize_block(current->start_addr + padding, padding);
-
-    mid_block->next = current->next;
-    current->next = mid_block;
-    current->size = padding;
-
-    binary_frac(current, size);
-}
-
-
-// chia khối theo cơ 2
-// yêu cầu memory ban đầu là lũy thừa của 2
-void* buddy_system_malloc(size_t size) {
-    MEMORY_BLOCK* prev = NULL;
-    MEMORY_BLOCK* current = free_list;
-
-    while (current != NULL) {
-        if (current->size >= size) {
-
-            void* addr = current->start_addr;
-
-            binary_frac(current, size);
-            print_free_list();
-            frac(current, prev, size);
-
-            free(current);
-            return addr;
-        }
-
-        prev = current;
-        current = current->next;
-    }
-
-    print_stderr();
-    return NULL;
-}
 
 
 void* my_realloc(void* ptr, size_t cur_size, size_t new_size) {
@@ -390,6 +351,54 @@ void destroy_memory() {
 
     free_list = NULL;
 }
+
+
+
+// hàm đệ quy chia khối của buddy system
+void binary_frac(MEMORY_BLOCK* current, size_t size) {
+    if (current->size <= 2*size) {
+        return ;
+    }
+    // lấy 1 nửa
+    size_t padding = current->size / 2;
+    // tạo block mới ở bên phải
+    MEMORY_BLOCK* mid_block = initialize_block(current->start_addr + padding, padding);
+
+    // gắn block mới vào và cập nhật lại size của current
+    mid_block->next = current->next;
+    current->next = mid_block;
+    current->size = padding;
+    // gọi đệ quy chia tiếp đến khi không được nữa
+    binary_frac(current, size);
+}
+
+void* buddy_system_malloc(size_t size) {
+    MEMORY_BLOCK* prev = NULL;
+    MEMORY_BLOCK* current = free_list;
+
+    while (current != NULL) {
+        if (current->size >= size) {
+
+            void* addr = current->start_addr;
+
+            binary_frac(current, size);
+
+            frac(current, prev, size);
+
+            free(current);
+            return addr;
+        }
+
+        prev = current;
+        current = current->next;
+    }
+
+    print_stderr();
+    return NULL;
+}
+
+
+
 
 int myMalloc() {
 
@@ -455,6 +464,7 @@ int myMalloc() {
 
     destroy_memory();
     free(base_adder);
+
     return 0;
 }
 

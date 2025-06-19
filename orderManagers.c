@@ -13,6 +13,7 @@
 #define MAX_TIME 100
 #define MAX_SIZE 32
 
+
 typedef enum STATUS {
     SERVING = 0,
     PAID = 1,
@@ -29,10 +30,15 @@ struct Dish {
 
 typedef struct Dish Dish;
 
+typedef struct DishList {
+    Dish* first;
+    Dish* last;
+} DishList;
+
 struct Order {
     char created_time[MAX_TIME];
     char staff_id[MAX_NAME];
-    Dish* dishes;
+    DishList* dishes_list;
     int dishes_count;
     int nums_count;
     int returned_dishes;
@@ -44,13 +50,23 @@ struct Order {
 
 typedef struct Order Order;
 
+typedef struct OrderList {
+    Order* first;
+    Order* last;
+} OrderList;
+
 struct Table {
     int table_id;
-    Order* order;
+    OrderList* order_list;
     struct Table* next;
 };
 
 typedef struct Table Table;
+
+typedef struct TableList {
+    Table* first;
+    Table* last;
+} TableList;
 
 char* returnTime() {
     // struct quản lí thời gian
@@ -60,6 +76,7 @@ char* returnTime() {
     t = time(NULL);
 
     // lấy thời gian khu vực
+    // muốn lấy theo múi 0h thì gmtime
     ptr = localtime(&t);
 
     // ghi thời gian theo định dạng
@@ -70,10 +87,31 @@ char* returnTime() {
 
 }
 
-Table* table_list;
+void printToStream(char* message, FILE* fptr) {
+    fputs(message, fptr);
+}
+
+void printAllStream(char* message, FILE* fptr) {
+    printToStream(message, stdout);
+    printToStream(message, fptr);
+}
+
+TableList* table_list = NULL;
+
+// tìm bàn trong danh sách bàn qua id
+
+// tạo danh sách bàn
+void createTableList() {
+    table_list = (TableList*)malloc(sizeof(TableList));
+    table_list->first = table_list->last = NULL;
+}
 
 Table* searchTable(int table_id) {
-    Table* cur = table_list;
+    if (!table_list) {
+        return NULL;
+    }
+
+    Table* cur = table_list->first;
 
     while (cur != NULL) {
         if (cur->table_id == table_id) {
@@ -85,38 +123,35 @@ Table* searchTable(int table_id) {
     return NULL;
 }
 
+
 // tạo bàn mới
 Table* createTable(int table_id) {
     Table* table = (Table*)malloc(sizeof(Table));
-    table->order = NULL;
+    table->order_list = NULL;
     table->table_id = table_id;
     table->next = NULL;
 
     return table;
 }
 
-// thêm bàn mới vào danh sách bàn hiện có
+// thêm bàn mới vào danh sách bàn hiện có, nếu chưa có danh sách bàn thì tạo mới
 void addTableToLast(Table* table) {
+    if (table_list == NULL) { createTableList(); }
 
-    Table* cur = table_list;
-
-    if (cur == NULL) {
-        table_list = table;
+    if (table_list->last == NULL) {
+        table_list->first = table_list->last = table;
     } else {
-        while (cur->next != NULL) {
-            cur = cur->next;
-        }
-
-        cur->next = table;
+        table_list->last->next = table;
+        table_list->last = table;
     }
 }
 
 // tìm và trả về đơn mới nhất của bàn
 Order* searchOrder(int table_id) {
-    Table* cur = table_list;
+    Table* cur = table_list->first;
     while (cur != NULL) {
         if (cur->table_id == table_id) {
-            return cur->order;
+            return cur->order_list->first;
         }
 
         cur = cur->next;
@@ -126,8 +161,16 @@ Order* searchOrder(int table_id) {
     return NULL;
 }
 
+// tạo danh sách đơn mới
+OrderList* createOrderList() {
+    OrderList* order_list = (OrderList*)malloc(sizeof(OrderList));
+    order_list->first = order_list->last = NULL;
+    return order_list;
+}
 
-// tạo order và thêm vào cuối của table, nếu chưa có thì tạo mới bàn
+// tạo order và thêm vào cuối của table
+// nếu chưa có thì tạo mới bàn
+// chưa có danh sách order cũng tạo mới
 Order* createOrder(int table_id, char staff_id[], char time[]) {
 
     Table* table = searchTable(table_id);
@@ -137,7 +180,7 @@ Order* createOrder(int table_id, char staff_id[], char time[]) {
         addTableToLast(table);
     }
     // đã có sẵn order đang được phục vụ rồi
-    if (table->order && table->order->status == SERVING) {
+    if (table->order_list && table->order_list->first && table->order_list->first->status == SERVING) {
         puts("Bàn đã được tạo order!");
         return NULL;
     }
@@ -145,7 +188,7 @@ Order* createOrder(int table_id, char staff_id[], char time[]) {
     Order* new_order = (Order*)malloc(sizeof(Order));
 
     strcpy(new_order->created_time, time);
-    new_order->dishes = NULL;
+    new_order->dishes_list = NULL;
     new_order->dishes_count = 0;
     new_order->nums_count = 0;
     new_order->returned_dishes = 0;
@@ -154,8 +197,16 @@ Order* createOrder(int table_id, char staff_id[], char time[]) {
     strcpy(new_order->staff_id, staff_id);
 
     // cập nhật danh sách order cho bàn
-    new_order->next = table->order;
-    table->order = new_order;
+    if (!table->order_list) {
+        table->order_list = createOrderList();
+    }
+
+    new_order->next = table->order_list->first;
+    table->order_list->first = new_order;
+
+    if (table->order_list->last == NULL) {
+        table->order_list->last = new_order;
+    }
 
     return new_order;
 }
@@ -164,43 +215,48 @@ Order* createOrder(int table_id, char staff_id[], char time[]) {
 void updateOrder(Table* table) {
 
     char* time = returnTime();
-    strcpy(table->order->updated_time , time);
 
-    Order* cur = table->order;
+    Order* first = table->order_list->first;
 
-    if (cur->next == NULL) {
+    strcpy(first->updated_time , time);
+
+    if (first->next == NULL) {
         return ;
     }
 
-    while (cur->next != NULL) {
-        cur = cur->next;
-    }
-
-    cur->next = table->order;
-    table->order = table->order->next;
-    cur->next->next = NULL;
-
+    table->order_list->last->next = first;
+    table->order_list->first = first->next;
+    table->order_list->last = first;
+    first->next = NULL;
 }
 
+// hủy đơn khi chưa trả món nào
 int cancelOrder(int table_id) {
     Table* table = searchTable(table_id);
 
-    if (!table || !table->order || table->order->status != SERVING) {
+    Order* first_order = table->order_list->first;
+
+    if (!table || !first_order || first_order->status != SERVING) {
         return 0;
     }
     // đã trả món thì không hủy được nữa
-    if (table->order->returned_nums != 0) {
+    if (first_order->returned_nums != 0) {
         return 0;
     }
 
-    table->order->dishes_count = 0;
-    table->order->nums_count = 0;
+    first_order->dishes_count = 0;
+    first_order->nums_count = 0;
     // gán order bị hủy và update đưa về cuối và không cần in ra nữa
-    table->order->status = CANCEL;
+    first_order->status = CANCEL;
     updateOrder(table);
     return 1;
 }
 
+void createDishList(Order* order) {
+    order->dishes_list = (DishList*)malloc(sizeof(DishList));
+    order->dishes_list->first = NULL;
+    order->dishes_list->last = NULL;
+}
 
 Dish* createDish(char dish_id[], int count, char note[]) {
     Dish* dish = (Dish*)malloc(sizeof(Dish));
@@ -225,64 +281,84 @@ Dish* searchDish(Dish* dishes, char dish_id[]) {
     return NULL;
 }
 
+// hàm thêm món
+// có thể tạo mới ds bàn, bàn, ds order, order, dish_list;
 int addDish(int table_id, char staff_id[], char time[], char dish_id[], int count, char note[]) {
+
+    if (!table_list) { createTableList(); }
+
     Table* table = searchTable(table_id);
+
     if (!table) {
         table = createTable(table_id);
         addTableToLast(table);
     }
 
-
-    // nếu bàn chưa có order hoặc các order trước đó đã xong hoặc hủy
-    if (table->order == NULL || table->order->status == PAID || table->order->status == CANCEL) {
-        Order* order = createOrder(table_id, staff_id, time);
-        table->order = order;
-
+    if (!table->order_list) {
+        table->order_list = createOrderList();
     }
 
-    Dish* cur = table->order->dishes;
-    Dish* prev = table->order->dishes;
+    // chưa có order hoặc các order trước đó đã xong hoặc hủy
 
+    Order* first_order = table->order_list->first;
+    if (!first_order || first_order->status == PAID || first_order->status == CANCEL) {
+        // tạo order mới cho bàn và gắn vào đầu
+        Order* new_order = createOrder(table_id, staff_id, time);
+
+        if (!first_order) {
+            table->order_list->first = table->order_list->last = new_order;
+        } else {
+            new_order->next = table->order_list->first;
+            table->order_list->first = new_order;
+        }
+        return 1;
+    }
+
+    if (!first_order->dishes_list) {
+        createDishList(first_order);
+    }
+
+    // nếu có đơn đang phục vụ thì tìm món
+    Dish* cur_dish = first_order->dishes_list->first;
     bool dish_find = false;
 
-    while (cur != NULL) {
-        prev = cur;
-        if (strcmp(cur->id, dish_id) == 0) {
+    while (cur_dish != NULL) {
+        if (strcmp(cur_dish->id, dish_id) == 0) {
             dish_find = true;
             break;
         }
-        cur = cur->next;
+        cur_dish = cur_dish->next;
     }
 
-    // danh sách rỗng hoặc không tìm được thì tạo món mới
-    if (prev == NULL || dish_find == false) {
+    // không tìm được thì tạo món mới
+    if (dish_find == false) {
         Dish* new_dish = createDish(dish_id, count, note);
-        if (prev == NULL) {
-            table->order->dishes = new_dish;
+        if (!first_order->dishes_list->first) {
+            first_order->dishes_list->first = first_order->dishes_list->last = new_dish;
         } else {
-            prev->next = new_dish;
+            first_order->dishes_list->last->next = new_dish;
+            first_order->dishes_list->last = new_dish;
         }
-
-        table->order->dishes_count++;
-        table->order->nums_count += count;
-
+        // tăng món cho order
+        first_order->dishes_count++;
 
     } else {    // tìm được
         // món đã hoàn thành nhưng gọi thêm thì coi như là chưa hoàn thành, và khi đó dish_count không đổi
-        if (cur->ordered_nums == cur->returned_nums) {
-            table->order->returned_dishes--;
+        if (cur_dish->ordered_nums == cur_dish->returned_nums) {
+            first_order->returned_dishes--;
         }
 
         // cập nhật dish
-        cur->ordered_nums += count;
-        strcpy(cur->note, note);
+        cur_dish->ordered_nums += count;
+        strcpy(cur_dish->note, note);
 
-        table->order->nums_count += count;
+        table->order_list->first->nums_count += count;
     }
+
+    first_order->nums_count += count;
 
     return 1;
 }
-
 
 
 int updateDish(int table_id, char staff_id[], char dish_id[], int count) {
@@ -291,49 +367,53 @@ int updateDish(int table_id, char staff_id[], char dish_id[], int count) {
         return 0;
     }
 
-    Order* order = table->order;
+    Order* order = table->order_list->first;
     if (!order || order->status != SERVING) {
         return 0;
     }
 
-    Dish* return_dish = searchDish(order->dishes, dish_id);
+    Dish* return_dish = searchDish(order->dishes_list->first, dish_id);
 
-    if (return_dish) {
+    if (!return_dish) {
+        puts("Khách không order món này, không trả\n");
+    }
+    else {
         // tính số đĩa còn cần phải phục vụ
         int serving_nums = return_dish->ordered_nums - return_dish->returned_nums;
         if (serving_nums < count) {
-            return 0;
-        } else {
-            return_dish->returned_nums += count;
-
-            // nếu món đã hoàn thành thì tăng số đĩa trả của order
-            if (return_dish->returned_nums == return_dish->ordered_nums) {
-                order->returned_dishes++;
-            }
-
-            order->returned_nums += count;
-
-            // cập nhật nhân viên
-            strcpy(order->staff_id, staff_id);
-
-            return 1;
+            puts("Trả món quá số lượng\n");
+            count = serving_nums; // chỉnh lại về số món tối đa được trả
         }
-    }
 
+        return_dish->returned_nums += count;
+
+        // nếu món đã hoàn thành thì tăng số đĩa trả của order
+        if (return_dish->returned_nums == return_dish->ordered_nums) {
+            order->returned_dishes++;
+        }
+
+        order->returned_nums += count;
+
+        // cập nhật nhân viên
+        strcpy(order->staff_id, staff_id);
+
+        return 1;
+    }
 
     return 0;
 }
 
 
-int cancelDish(int table_id, char dish_id[], char note[]) {
+int cancelDish(char staff_id[], int table_id, char dish_id[], char note[]) {
     Table* table = searchTable(table_id);
 
-    if (!table || !table->order || !table->order->dishes) {
+    if (!table || !table->order_list || !table->order_list->first->dishes_list) {
         return 0;
     }
 
-    Dish* return_dish = searchDish(table->order->dishes, dish_id);
+    Dish* return_dish = searchDish(table->order_list->first->dishes_list->first, dish_id);
 
+    strcpy(table->order_list->first->staff_id, staff_id);
 
     if (return_dish) {
         // nếu chưa đĩa nào trả
@@ -343,8 +423,8 @@ int cancelDish(int table_id, char dish_id[], char note[]) {
             return_dish->ordered_nums = 0;
             strcpy(return_dish->note, note);
 
-            table->order->dishes_count--;
-            table->order->nums_count -= count;
+            table->order_list->first->dishes_count--;
+            table->order_list->first->nums_count -= count;
 
             return 1;
         }
@@ -352,76 +432,80 @@ int cancelDish(int table_id, char dish_id[], char note[]) {
     return 0;
 }
 
-void printToStream(char* message, FILE* fptr) {
-    fputs(message, fptr);
-}
 
-void printDish(Dish* dish, FILE* fptr) {
+
+void printDish(Dish* dish, bool paid, FILE* fptr) {
     if (dish == NULL) {
         return ;
     }
 
-    if (dish->returned_nums == dish->ordered_nums) {
-        char message[1024] ;
-        if (dish->note[0] != '\0') {
-            sprintf(message,"\tMón: %-20s     Số lượng: %-6d     Ghi chú: %s\n",dish->id, dish->ordered_nums, dish->note);
-        } else {
-            sprintf(message, "\tMón: %-20s     Số lượng: %-6d\n", dish->id, dish->ordered_nums);
-        }
+    char message[1024] ;
 
-        printToStream(message, stdout);
-        printToStream(message, fptr);
+    sprintf(message, "\tMón: %-20s    Số đĩa đặt: %-6d     Số đĩa đã trả: %-6d     Ghi chú: %s\n",
+            dish->id, dish->ordered_nums, dish->returned_nums, dish->note
+        );
 
-    }
+    printAllStream(message, fptr);
 
-    printDish(dish->next, fptr);
+    printDish(dish->next, paid, fptr);
 }
 
-void printOrder(Table* table,  FILE* fptr) {
-    Order *order = table->order;
+
+
+void printOrder(Table* table, bool paid,  FILE* fptr) {
+    Order *order = table->order_list->first;
 
     if (order == NULL) {
         return ;
     }
-
-
+    // cập nhật thời gian update
     char* time = returnTime();
     strcpy(order->updated_time, time);
-    printToStream(order->updated_time, stdout);
-    printToStream(order->updated_time, fptr);
 
-    if (order->status == SERVING) {
+
+    char message[1024];
+
+    // sprintf không như fwrite hay fprintf có thể tiếp tục vào luồng
+    // mà nó sẽ xóa chuỗi và ghi mới
+    // có thể dùng snprintf với offset hoặc ghi vào buffer sau đó strcat
+    // cuối cùng fwrite để ghi theo khối, tuy nhiên sẽ không hiểu được 
+
+    sprintf(message, "Bàn được phục vụ là bàn số: %d\n", table->table_id);
+    printAllStream(message, fptr);
+
+    sprintf(message, "Order được tạo lúc: %s\n", order->created_time);
+    printAllStream(message, fptr);
+
+    char staff_info[1024];
+    sprintf(staff_info, "Nhân viên phục vụ: %s\n", order->staff_id);
+    printAllStream(staff_info, fptr);
+
+    printDish(order->dishes_list->first, paid, fptr);
+
+    sprintf(message, "Tổng số món đã đặt là: %d\n", order->dishes_count);
+    printAllStream(message, fptr);
+
+    sprintf(message, "Tổng số đĩa đã đặt là: %d\n", order->nums_count);
+    printAllStream(message, fptr);
+
+    sprintf(message, "Tổng số món đã trả là: %d\n", order->returned_dishes);
+    printAllStream(message, fptr);
+
+    sprintf(message, "Tống số đĩa đã trả là: %d\n", order->returned_nums);
+    printAllStream(message, fptr);
+
+    sprintf(message, "Thời gian cập nhật gần nhất của order là: %s", order->updated_time);
+    printAllStream(message, fptr);
+
+    if (paid) {
         order->status = PAID;
-
-        // nếu đơn có món thì in còn không thì in đơn bị hủy
-        if (order->nums_count == 0) {
-            char message[1024] = "/tĐơn chưa gọi món/n";
-            printToStream(message, stdout);
-            printToStream(message, fptr);
-        } else {
-            printDish(order->dishes, fptr);
-
-            char message[1024];
-            sprintf(message, "\tSố đĩa đặt: %d\n", order->nums_count);
-            printToStream(message, stdout);
-            printToStream(message, fptr);
-
-            sprintf(message, "\tSố món đặt: %d\n", order->dishes_count);
-            printToStream(message, stdout);
-            printToStream(message, fptr);
-        }
-
         updateOrder(table);
 
-        fputs("", fptr);
-    } else {
-        char message[1024] = "Đơn đã bị hủy hoặc đã hoàn thành!\n";
-        printToStream(message, stdout);
-        printToStream(message, fptr);
-        return ;
+        sprintf(message, "Thanh toán thành công!\n");
+        printAllStream(message, fptr);
     }
-
 }
+
 
 void printTable(Table* table, FILE* fptr) {
     if (table == NULL) {
@@ -432,7 +516,7 @@ void printTable(Table* table, FILE* fptr) {
     puts(s);
     fprintf(fptr, "%s\n", s);
 
-    printOrder(table, fptr);
+    printOrder(table, true, fptr);
 
 }
 
@@ -447,6 +531,8 @@ void move(char** end_ptr) {
     }
 }
 
+// hàm tách các thành phần của đầu vào
+// chia ra các trường hợp đã mở "" hay chưa
 char** delim(char* str, int* split_index) {
     str[strcspn(str, "\r\n")] = '\0';
     *split_index = 0;
@@ -458,7 +544,7 @@ char** delim(char* str, int* split_index) {
 
     while (*n_ptr != '\0') {
         if (open) {
-            if (*n_ptr == '`') {
+            if (*n_ptr == '"') {
                 open = false;
                 *n_ptr = '\0';
                 split[(*split_index)++] = strdup(end_ptr);
@@ -475,7 +561,7 @@ char** delim(char* str, int* split_index) {
                 n_ptr++;
                 move(&n_ptr);
                 end_ptr = n_ptr;
-            } else if (*n_ptr == '`') {
+            } else if (*n_ptr == '"') {
                 open = true;
                 end_ptr = ++n_ptr;
             } else {
@@ -525,24 +611,28 @@ void getInputAndProcess(FILE* fptr) {
             char** split = delim(temp, &split_index);
 
             int table_id = strtol(split[2], NULL, 10);
-            printf("%d\n", table_id);
+
             Table* table = searchTable(table_id);
 
             printOrder(table, false, fptr);
 
             // loại bỏ kí tự '#'
-            fgets(NULL, 10, NULL);
+            char garbage[16];
+            fgets(garbage, 10, stdin);
 
             freeSplit(split, split_index);
 
 
         } else if (strstr(temp, "search_order")) {
+
             char buffer[1024];
             fgets(buffer, 1023, stdin);
             int table_id = strtol(buffer, NULL, 10);
             Table* table = searchTable(table_id);
-            printf("Pointer to order list: %p\n\n", table->order);
+            printf("Pointer to order list: %p\n\n", table->order_list->first);
+
         } else if (strstr(temp, "create_order")) {
+
             while (true) {
                 char staff_id[20];
                 int table_id;
@@ -607,7 +697,6 @@ void getInputAndProcess(FILE* fptr) {
                 table_id = strtol(split[1], NULL, 10);
                 strcpy(dish, split[2]);
                 quantity = strtol(split[3], NULL, 10);
-
                 int valid = updateDish(table_id, staff_id, dish, quantity);
                 printValid(valid, strdup("Update Dish"));
 
@@ -618,23 +707,26 @@ void getInputAndProcess(FILE* fptr) {
             while (true) {
                 char buffer[1024];
                 fgets(buffer, 1023, stdin);
+
                 if (buffer[0] == '#') {
                     break;
                 }
 
-
+                char staff_id[MAX_NAME];
                 int table_id;
-                char dish[20];
-                char note[20];
+                char dish[MAX_NAME];
+                char note[MAX_NOTE];
 
                 int split_size;
                 char** split = delim(buffer, &split_size);
 
-                table_id = strtol(split[0], NULL, 10);
-                strcpy(dish, split[1]);
-                strcpy(note, split[2]);
+                strcpy(staff_id, split[0]);
 
-                int valid = cancelDish(table_id, dish, note);
+                table_id = strtol(split[1], NULL, 10);
+                strcpy(dish, split[2]);
+                strcpy(note, split[3]);
+
+                int valid = cancelDish(staff_id, table_id, dish, note);
                 printValid(valid, strdup("Cancel Dish"));
 
                 freeSplit(split, split_size);
@@ -685,7 +777,8 @@ void freeOrders(Order* order) {
     while (cur) {
         prev = cur;
         cur = cur->next;
-        freeDishes(prev->dishes);
+        freeDishes(prev->dishes_list->first);
+        free(prev->dishes_list);
         free(prev);
     }
 }
@@ -697,7 +790,8 @@ void freeTable(Table* table) {
     while (cur) {
         prev = cur;
         cur = cur->next;
-        freeOrders(prev->order);
+        freeOrders(prev->order_list->first);
+        free(prev->order_list);
         free(prev);
     }
 }
@@ -706,7 +800,7 @@ void freeTable(Table* table) {
 
 int orderManagers() {
     char file_name[] = "orderManagers.txt";
-    FILE* fptr = fopen(file_name, "a+");
+    FILE* fptr = fopen(file_name, "a+b");
     if (!fptr) {
         fprintf(stderr, "Cannot open the file!");
         exit(EXIT_FAILURE);
@@ -717,7 +811,8 @@ int orderManagers() {
     getInputAndProcess(fptr);
 
 
-    freeTable(table_list);
+    freeTable(table_list->first);
+    free(table_list);
     table_list = NULL;
 
     fclose(fptr);
