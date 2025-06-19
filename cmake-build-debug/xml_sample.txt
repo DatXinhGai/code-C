@@ -1,0 +1,39 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="1">
+        <title>Introduction to Algorithms</title>
+        <author>
+            <first_name>Thomas</first_name>
+            <last_name>Cormen</last_name>
+        </author>
+        <publisher>MIT Press</publisher>
+        <year>2009</year>
+        <price>89.99</price>
+    </book>
+    <book id="2">
+        <title>Clean Code: A Handbook of Agile Software Craftsmanship</title>
+        <author>
+            <first_name>Robert</first_name>
+            <last_name>Martin</last_name>
+        </author>
+        <publisher>Prentice Hall</publisher>
+        <year>2008</year>
+        <price>49.99</price>
+    </book>
+    <book id="3">
+        <title>The Pragmatic Programmer</title>
+        <author>
+            <first_name>Andrew</first_name>
+            <last_name>Hunt</last_name>
+        </author>
+        <author>
+            <first_name>David</first_name>
+            <last_name>Thomas</last_name>
+        </author>
+        <publisher>Addison-Wesley</publisher>
+        <year>1999</year>
+        <price>39.99</price>
+    </book>
+</library>

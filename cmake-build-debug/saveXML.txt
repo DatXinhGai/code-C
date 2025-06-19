@@ -1,0 +1,36 @@
+<library>
+	<book id="1">
+		<title>IntroductiontoAlgorithms</title>
+		<author>
+			<first_name>Thomas</first_name>
+			<last_name>Cormen</last_name>
+			<Dat DepTrai="true"></Dat>
+		</author>
+		<publisher>MITPress</publisher>
+		<price>89.99</price>
+	</book>
+	<book id="2">
+		<title>CleanCode:AHandbookofAgileSoftwareCraftsmanship</title>
+		<author>
+			<first_name>Robert</first_name>
+			<last_name>Martin</last_name>
+		</author>
+		<publisher>PrenticeHall</publisher>
+		<year>2008</year>
+		<price>49.99</price>
+	</book>
+	<book id="3">
+		<title>ThePragmaticProgrammer</title>
+		<author>
+			<first_name>Andrew</first_name>
+			<last_name>Hunt</last_name>
+		</author>
+		<author>
+			<first_name>David</first_name>
+			<last_name>Thomas</last_name>
+		</author>
+		<publisher>Addison-Wesley</publisher>
+		<year>1999</year>
+		<price>39.99</price>
+	</book>
+</library>

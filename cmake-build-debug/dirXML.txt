@@ -1,0 +1,16 @@
+<Directory name="browser">
+   <Directory name="features">
+      <File name="formautofill@mozilla.org.xpi"/>
+      <File name="pictureinpicture@mozilla.org.xpi"/>
+      <File name="screenshots@mozilla.org.xpi"/>
+      <File name="webcompat-reporter@mozilla.org.xpi"/>
+      <File name="webcompat@mozilla.org.xpi"/>
+   </Directory>
+   <File name="omni.ja"/>
+   <Directory name="VisualElements">
+      <File name="PrivateBrowsing_150.png"/>
+      <File name="PrivateBrowsing_70.png"/>
+      <File name="VisualElements_150.png"/>
+      <File name="VisualElements_70.png"/>
+   </Directory>
+</Directory>
